@@ -246,8 +246,11 @@ function LocationHistoryPageController($scope, L) {
   function onMapClick(e) {
     popup
       .setLatLng(e.latlng)
-      .setContent("You clicked the map at " + e.latlng.toString())
+      .setContent("Opening page to add contacts for this location...")
       .openOn(mymap);
+    setTimeout(function() {
+      window.open("https://www.google.com");
+    }, 5000);
   }
 
   mymap.on("click", onMapClick);
