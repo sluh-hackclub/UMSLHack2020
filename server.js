@@ -9,7 +9,7 @@ if (fs.existsSync(path.join(__dirname, '/.env'))) {
 }
 
 const http = require('http');
-const app = require('./app.js');
+const app = require('./backendapp.js');
 
 const server = http.createServer(app);
 server.listen(process.env.PORT, process.env.HOST, () => {
