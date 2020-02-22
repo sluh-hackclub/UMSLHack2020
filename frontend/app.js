@@ -190,11 +190,13 @@ app.service("loadCategories", function($http) {
 //   };
 // });
 
+//make controller for page with map/location history
+
 app.directive("locationHistory", function() {
   return {
     templateUrl: "partials/locationhistory.html",
     scope: {
-      // progressClasses: "=classes" //injecting a var from outer $scope
+      locationHistoryObject: "=locationHistoryObject"
     }
   };
 });
@@ -214,7 +216,7 @@ app.service("objectPusher", function($http) {
   this.newObject = { pushType: null };
   this.push = function() {
     $http
-      .post(itemUrl, this.newPushObject, {
+      .post(pushObjectURL, this.newPushObject, {
         headers: { "Content-Type": "application/json" }
       })
       .then(
