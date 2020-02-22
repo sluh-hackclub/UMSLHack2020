@@ -1,0 +1,19 @@
+{
+  "name": "umslhack2020",
+  "version": "1.0.0",
+  "description": "Application for UMSL Hack 2020",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sluh-hackclub/UMSLHack2020.git"
+  },
+  "author": "SLUH Hack Club",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sluh-hackclub/UMSLHack2020/issues"
+  },
+  "homepage": "https://github.com/sluh-hackclub/UMSLHack2020#readme"
+}
