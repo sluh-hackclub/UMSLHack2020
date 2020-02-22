@@ -21,22 +21,22 @@
     <br>
         <div class="container">
           <div class="notification">
-            <h6>
-                How long have you been showing symptoms?
+            <h6 class="has-text-centered">
+                2. How long have you been showing symptoms?
             </h6>
           </div>
         </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container has-text-centered">
         <div class="section">
         <form>
             <label for="days"></label>
-            <input type="number" id="days" name="days" style="width: 5em">
+            <input type="number" min="0" max="99" id="days" name="days" style="width: 3em; font-size: 18px;">
             days
         </form>
       </div>
-      <div class="container">
+      <div class="buttons is-centered">
         <div class="field is-grouped">
             <div class="control">
               <button class="button is-link">Continue</button>
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
     </section>
   </body>
 </html>
