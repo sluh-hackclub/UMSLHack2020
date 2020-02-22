@@ -192,7 +192,7 @@ app.service("loadCategories", function($http) {
 
 app.directive("locationHistory", function() {
   return {
-    templateUrl: "partials/progress.html",
+    templateUrl: "partials/locationhistory.html",
     scope: {
       // progressClasses: "=classes" //injecting a var from outer $scope
     }
