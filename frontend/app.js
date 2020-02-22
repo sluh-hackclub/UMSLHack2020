@@ -1,8 +1,3 @@
-// const itemUrl = "http://127.0.0.1:5000/new_item";
-// const donorUrl = "http://127.0.0.1:5000/get_donors/";
-// const categoryUrl = "http://127.0.0.1:5000/get_categories/";
-// const taxLetterUrl = "http://127.0.0.1:5000/get_tax_letter_url/";
-// const alertsUrl = "http://127.0.0.1:5000/get_alerts";
 const app = angular.module("virusTracker", ["ngRoute"]);
 
 app.config(function($routeProvider, $locationProvider) {
@@ -10,10 +5,6 @@ app.config(function($routeProvider, $locationProvider) {
     .when("/dashboard", {
       templateUrl: "partials/donors.html",
       controller: "donorController"
-    })
-    .when("/category", {
-      templateUrl: "partials/category.html",
-      controller: "categoryController"
     })
     .when("/mapcontacts", {
       templateUrl: "partials/addcontactsfrommap.html",
@@ -23,75 +14,13 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: "partials/locationhistory.html",
       controller: "LocationHistoryPageController"
     })
-    .when("/config", {
-      templateUrl: "pages/config.html",
-      controller: "configController"
-    })
-    .when("/donation", {
-      templateUrl: "partials/donation.html",
-      controller: "donationController"
-    })
     .when("/welcome", {
       templateUrl: "partials/welcome.html",
       controller: "welcomeController"
     })
-    .when("/stats", {
-      templateUrl: "pages/stats.html",
-      controller: "statsController"
-    })
-    .when("/tasks", {
-      templateUrl: "pages/tasks.html",
-      controller: "tasksController"
-    })
-    .when("/profile", {
-      templateUrl: "pages/profile.html",
-      controller: "profileController"
-    })
     .otherwise({ redirectTo: "/" });
   $locationProvider.html5Mode(true);
 });
-
-// app.controller("donorController", function(
-//   $scope,
-//   $location,
-//   $http,
-//   itemCreater,
-//   $window
-// ) {
-//   var searchBar = document.getElement;
-//   $scope.donors = [];
-//   $scope.donorSearch = function() {
-//     if ($scope.donorName) {
-//       $http
-//         .get(donorUrl + $scope.donorName, { responseType: "json" })
-//         .then(function(response) {
-//           // console.log('searched'); debug
-//           // console.log(response.data.donors); debug
-//           $scope.donors = response.data.donors;
-//         });
-//     } else {
-//       $scope.donors = [];
-//     }
-//   };
-//   $scope.donorClick = function(donorId) {
-//     popUp = document.getElementsByClassName("modal")[0];
-//     popUp.style.display = "initial";
-//     $scope.close = function() {
-//       popUp.style.display = "none";
-//     };
-//     $scope.createitem = function() {
-//       itemCreater.newItem.donor = donorId;
-//       $location.path("/category");
-//     };
-//     $scope.taxletter = function() {
-//       $http
-//         .get(taxLetterUrl + donorId, { responseType: "text" })
-//         .then(function(response) {
-//           $window.location = response.data;
-//         });
-//     };
-//   };
-// });
 
 app.service("loadCategories", function($http) {
   this.load = function(parentId) {
@@ -102,95 +31,6 @@ app.service("loadCategories", function($http) {
       });
   };
 });
-
-// app.controller("categoryController", function(
-//   $scope,
-//   loadCategories,
-//   $location,
-//   itemCreater
-// ) {
-//   $scope.categoryList = [];
-//   loadCategories.load("0").then(function(data) {
-//     $scope.categories = data.categories;
-//     // console.log($scope.categories);
-//   });
-//   $scope.categoryClick = function(category) {
-//     category.oid = $scope.categoryList.length + 1;
-//     $scope.categoryList.push(category);
-//     loadCategories.load(category.id).then(function(data) {
-//       if (data.categories.length > 0) {
-//         $scope.categories = data.categories;
-//       } else {
-//         console.log($scope.categoryList);
-//         itemCreater.newItem.categories = $scope.categoryList;
-//         $location.path("/donation");
-//       }
-//     });
-//   };
-//   $scope.navigateCategory = function(pid, oid) {
-//     console.log(oid, pid);
-//     $scope.categoryList = $scope.categoryList.filter(function(i) {
-//       return i.oid < oid;
-//     });
-//     console.log($scope.categoryList);
-//     loadCategories.load(pid).then(function(data) {
-//       $scope.categories = data.categories;
-//     });
-//   };
-// });
-
-// app.controller("donationController", function($scope, itemCreater, $location) {
-//   $scope.submitDonation = function() {
-//     itemCreater.newItem.description = $scope.description;
-//     itemCreater.newItem.price = $scope.price;
-//     itemCreater.newItem.quantity = $scope.quantity;
-//     itemCreater.pushItem();
-//     $location.path("/donors");
-//   };
-// });
-
-// app.controller("configController", function($scope) {
-//   $scope.chatTemplate = "partials/chat.html";
-// });
-
-// app.directive("breadcrumbbar", function() {
-//   return {
-//     templateUrl: "partials/breadcrumb-bar.html",
-//     scope: {
-//       breadcrumbData: "=data",
-//       navigate: "&"
-//     }
-//   };
-// });
-
-// app.controller("welcomeController", function($scope) {
-//   var templates = [
-//     "partials/page2.html",
-//     "partials/page3.html",
-//     "partials/page4.html"
-//   ];
-//   var options = {};
-//   var navNum = 0;
-//   $scope.classes = ["active", "inactive", "inactive"];
-//   $scope.currentTemplate = "partials/page1.html";
-
-//   $scope.next = function(next, key, value) {
-//     $scope.currentTemplate = templates[next];
-//     $scope.classes[navNum] = "completed";
-//     $scope.classes[navNum + 1] = "active";
-//     options[key] = value;
-//     navNum++;
-//   };
-
-//   $scope.submitDonation = function(key, value) {
-//     options[key] = value;
-//     $scope.classes[2] = "completed";
-//     $scope.currentTemplate = "partials/page5.html";
-//     console.log(options);
-//   };
-// });
-
-//make controller for page with map/location history
 
 app.directive("addContactsFromMap", function() {
   return {
@@ -302,15 +142,6 @@ LocationHistoryPageController.$inject = [
 
 app.controller("LocationHistoryPageController", LocationHistoryPageController);
 
-// app.directive("locationHistory", function() {
-//   return {
-//     templateUrl: "partials/locationhistory.html",
-//     scope: {
-//       locationHistoryObject: "=locationHistoryObject"
-//     }
-//   };
-// });
-
 app.controller("FormController", function($scope) {
   $scope.formObject = {};
 
@@ -318,7 +149,7 @@ app.controller("FormController", function($scope) {
     $scope.formObject = angular.copy(formData);
     $scope.formObject.formid = formId;
 
-    //additional code for submitting to the API -- using objectPusher service
+    //TODO:additional code for submitting to the API -- using objectPusher service
   };
 });
 
@@ -340,12 +171,21 @@ app.service("objectPusher", function($http) {
   };
 });
 
-app.controller("AddContactsFromMapController", function($scope, passLocation) {
+app.controller("AddContactsFromMapController", function(
+  $scope,
+  passLocation,
+  $sce
+) {
+  $scope.trustUrl = function(path) {
+    return $sce.trustAsResourceUrl(path);
+  };
   var location = passLocation.getLocation();
   var apiKey = "AIzaSyA60Sq7IJTVHhW2-zoV4WfTaCn9sDLl_zo";
-  var imgURL = `https://maps.googleapis.com/maps/api/streetview?location=${location.lat},${location.lng}&size=600x300&key=${apiKey}`;
+  // var panoURL = `https://maps.googleapis.com/maps/api/streetview?location=${location.lat},${location.lng}&size=600x300&key=${apiKey}`;
 
-  console.log(imgURL);
+  var panoURL = `https://www.google.com/maps/embed/v1/streetview?key=${apiKey}&location=${location.lat},${location.lng}&heading=210&pitch=10&fov=35`;
 
-  $scope.imgPath = imgURL;
+  console.log(panoURL);
+
+  $scope.panoPath = panoURL;
 });
