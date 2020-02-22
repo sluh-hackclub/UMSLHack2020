@@ -15,9 +15,9 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: "partials/category.html",
       controller: "categoryController"
     })
-    .when("/price", {
-      templateUrl: "partials/price.html",
-      controller: "mainController"
+    .when("/mapcontacts", {
+      templateUrl: "partials/addcontactsfrommap.html",
+      controller: "AddContactsFromMapController"
     })
     .when("/", {
       templateUrl: "partials/locationhistory.html",
@@ -191,6 +191,16 @@ app.service("loadCategories", function($http) {
 // });
 
 //make controller for page with map/location history
+
+app.directive("addContactsFromMap", function() {
+  return {
+    templateUrl: "partials/addcontactsfrommap.html",
+    scope: {
+      location: "=location"
+    }
+  };
+});
+
 function LeafletJSFactory($window) {
   if (!window.L) {
     console.log("leaflet failed to load");
@@ -203,7 +213,30 @@ LeafletJSFactory.$inject = ["$window"];
 
 app.factory("L", LeafletJSFactory);
 
-function LocationHistoryPageController($scope, L) {
+app.factory("passLocation", function() {
+  var location;
+
+  var setLocation = function(locationObject) {
+    location = locationObject;
+    return;
+  };
+
+  var getLocation = function() {
+    if (location) {
+      return location;
+    } else {
+      console.log("location has not yet been set");
+      return { lat: "0", lng: "0" };
+    }
+  };
+
+  return {
+    setLocation: setLocation,
+    getLocation: getLocation
+  };
+});
+
+function LocationHistoryPageController($scope, L, passLocation, $location) {
   var mymap = L.map("mapid").setView([51.505, -0.09], 13);
 
   L.tileLayer(
@@ -246,28 +279,36 @@ function LocationHistoryPageController($scope, L) {
   function onMapClick(e) {
     popup
       .setLatLng(e.latlng)
-      .setContent("Opening page to add contacts for this location...")
+      .setContent("Opening page to add new contacts...")
       .openOn(mymap);
+    console.log(e.latlng);
+
     setTimeout(function() {
-      window.open("https://www.google.com");
-    }, 5000);
+      passLocation.setLocation(e.latlng);
+      $location.path("/mapcontacts");
+    }, 2000);
   }
 
   mymap.on("click", onMapClick);
 }
 
-LocationHistoryPageController.$inject = ["$scope", "L"];
+LocationHistoryPageController.$inject = [
+  "$scope",
+  "L",
+  "passLocation",
+  "$location"
+];
 
 app.controller("LocationHistoryPageController", LocationHistoryPageController);
 
-app.directive("locationHistory", function() {
-  return {
-    templateUrl: "partials/locationhistory.html",
-    scope: {
-      locationHistoryObject: "=locationHistoryObject"
-    }
-  };
-});
+// app.directive("locationHistory", function() {
+//   return {
+//     templateUrl: "partials/locationhistory.html",
+//     scope: {
+//       locationHistoryObject: "=locationHistoryObject"
+//     }
+//   };
+// });
 
 app.controller("FormController", function($scope) {
   $scope.formObject = {};
@@ -296,4 +337,14 @@ app.service("objectPusher", function($http) {
         }
       );
   };
+});
+
+app.controller("AddContactsFromMapController", function($scope, passLocation) {
+  var location = passLocation.getLocation();
+  var apiKey = "AIzaSyA60Sq7IJTVHhW2-zoV4WfTaCn9sDLl_zo";
+  var imgURL = `https://maps.googleapis.com/maps/api/streetview?location=${location.lat},${location.lng}&size=600x300&key=${apiKey}`;
+
+  console.log(imgURL);
+
+  $scope.imgPath = imgURL;
 });
