@@ -5,51 +5,51 @@
 // const alertsUrl = "http://127.0.0.1:5000/get_alerts";
 const app = angular.module("virusTracker", ["ngRoute"]);
 
-// app.config(function($routeProvider, $locationProvider) {
-//   $routeProvider
-//     .when("/dashboard", {
-//       templateUrl: "partials/donors.html",
-//       controller: "donorController"
-//     })
-//     .when("/category", {
-//       templateUrl: "partials/category.html",
-//       controller: "categoryController"
-//     })
-//     .when("/price", {
-//       templateUrl: "partials/price.html",
-//       controller: "mainController"
-//     })
-//     .when("/", {
-//       templateUrl: "pages/dashboard.html",
-//       controller: "dashboardController"
-//     })
-//     .when("/config", {
-//       templateUrl: "pages/config.html",
-//       controller: "configController"
-//     })
-//     .when("/donation", {
-//       templateUrl: "partials/donation.html",
-//       controller: "donationController"
-//     })
-//     .when("/welcome", {
-//       templateUrl: "partials/welcome.html",
-//       controller: "welcomeController"
-//     })
-//     .when("/stats", {
-//       templateUrl: "pages/stats.html",
-//       controller: "statsController"
-//     })
-//     .when("/tasks", {
-//       templateUrl: "pages/tasks.html",
-//       controller: "tasksController"
-//     })
-//     .when("/profile", {
-//       templateUrl: "pages/profile.html",
-//       controller: "profileController"
-//     })
-//     .otherwise({ redirectTo: "/" });
-//   $locationProvider.html5Mode(true);
-// });
+app.config(function($routeProvider, $locationProvider) {
+  $routeProvider
+    .when("/dashboard", {
+      templateUrl: "partials/donors.html",
+      controller: "donorController"
+    })
+    .when("/category", {
+      templateUrl: "partials/category.html",
+      controller: "categoryController"
+    })
+    .when("/price", {
+      templateUrl: "partials/price.html",
+      controller: "mainController"
+    })
+    .when("/", {
+      templateUrl: "partials/locationhistory.html",
+      controller: "LocationHistoryPageController"
+    })
+    .when("/config", {
+      templateUrl: "pages/config.html",
+      controller: "configController"
+    })
+    .when("/donation", {
+      templateUrl: "partials/donation.html",
+      controller: "donationController"
+    })
+    .when("/welcome", {
+      templateUrl: "partials/welcome.html",
+      controller: "welcomeController"
+    })
+    .when("/stats", {
+      templateUrl: "pages/stats.html",
+      controller: "statsController"
+    })
+    .when("/tasks", {
+      templateUrl: "pages/tasks.html",
+      controller: "tasksController"
+    })
+    .when("/profile", {
+      templateUrl: "pages/profile.html",
+      controller: "profileController"
+    })
+    .otherwise({ redirectTo: "/" });
+  $locationProvider.html5Mode(true);
+});
 
 // app.controller("donorController", function(
 //   $scope,
@@ -191,6 +191,71 @@ app.service("loadCategories", function($http) {
 // });
 
 //make controller for page with map/location history
+function LeafletJSFactory($window) {
+  if (!window.L) {
+    console.log("leaflet failed to load");
+  }
+
+  return $window.L;
+}
+
+LeafletJSFactory.$inject = ["$window"];
+
+app.factory("L", LeafletJSFactory);
+
+function LocationHistoryPageController($scope, L) {
+  var mymap = L.map("mapid").setView([51.505, -0.09], 13);
+
+  L.tileLayer(
+    "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw",
+    {
+      maxZoom: 18,
+      attribution:
+        'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      id: "mapbox/streets-v11",
+      tileSize: 512,
+      zoomOffset: -1
+    }
+  ).addTo(mymap);
+
+  L.marker([51.5, -0.09])
+    .addTo(mymap)
+    .bindPopup("<b>Hello world!</b><br />I am a popup.")
+    .openPopup();
+
+  L.circle([51.508, -0.11], 500, {
+    color: "red",
+    fillColor: "#f03",
+    fillOpacity: 0.5
+  })
+    .addTo(mymap)
+    .bindPopup("I am a circle.");
+
+  L.polygon([
+    [51.509, -0.08],
+    [51.503, -0.06],
+    [51.51, -0.047]
+  ])
+    .addTo(mymap)
+    .bindPopup("I am a polygon.");
+
+  var popup = L.popup();
+
+  function onMapClick(e) {
+    popup
+      .setLatLng(e.latlng)
+      .setContent("You clicked the map at " + e.latlng.toString())
+      .openOn(mymap);
+  }
+
+  mymap.on("click", onMapClick);
+}
+
+LocationHistoryPageController.$inject = ["$scope", "L"];
+
+app.controller("LocationHistoryPageController", LocationHistoryPageController);
 
 app.directive("locationHistory", function() {
   return {
@@ -201,14 +266,14 @@ app.directive("locationHistory", function() {
   };
 });
 
-app.controller("formController", function($scope) {
+app.controller("FormController", function($scope) {
   $scope.formObject = {};
 
   $scope.submit = function(formId, formData) {
     $scope.formObject = angular.copy(formData);
     $scope.formObject.formid = formId;
 
-    //additional code for submitting to the API
+    //additional code for submitting to the API -- using objectPusher service
   };
 });
 
@@ -217,7 +282,7 @@ app.service("objectPusher", function($http) {
   this.push = function() {
     $http
       .post(pushObjectURL, this.newPushObject, {
-        headers: { "Content-Type": "application/json" }
+        headers: { "Content-Type": "app3lication/json" }
       })
       .then(
         function() {
