@@ -1,0 +1,3998 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401649745716",
+        "endTimestampMs" : "1401661167741"
+      },
+      "distance" : 1416617,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 284391016,
+        "longitudeE7" : -813159993
+      },
+      "endLocation" : {
+        "latitudeE7" : 284342667,
+        "longitudeE7" : -813012364
+      },
+      "duration" : {
+        "startTimestampMs" : "1401661167741",
+        "endTimestampMs" : "1401661427762"
+      },
+      "distance" : 1915,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 284330475,
+          "lngE7" : -812999819,
+          "timestampMs" : "1401661364713",
+          "accuracyMeters" : 50
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401661427762",
+        "endTimestampMs" : "1401663013960"
+      },
+      "distance" : 521,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 284332408,
+          "lngE7" : -813052291
+        }, {
+          "latE7" : 284330520,
+          "lngE7" : -813051757
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401663013960",
+        "endTimestampMs" : "1401664929898"
+      },
+      "distance" : 31511,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 284323635,
+          "lngE7" : -813063049
+        }, {
+          "latE7" : 283689479,
+          "lngE7" : -815621185
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401664929898",
+        "endTimestampMs" : "1401668163871"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 283689479,
+          "lngE7" : -815621185
+        }, {
+          "latE7" : 283630275,
+          "lngE7" : -815593948
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 283852330,
+        "longitudeE7" : -815638740,
+        "placeId" : "ChIJ96XKNOZ-3YgRoPEc0B85Hqc",
+        "address" : "Orlando, FL\nUSA",
+        "name" : "Walt Disney World Resort",
+        "locationConfidence" : 85.40968
+      },
+      "duration" : {
+        "startTimestampMs" : "1401668163871",
+        "endTimestampMs" : "1401679026537"
+      },
+      "centerLatE7" : 283609485,
+      "centerLngE7" : -815722248,
+      "visitConfidence" : 64,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 283702539,
+        "longitudeE7" : -815209851,
+        "placeId" : "ChIJ-0qgNoF_3YgRg3Lh7xHDooU",
+        "name" : "Disney Springs",
+        "locationConfidence" : 6.055252
+      }, {
+        "latitudeE7" : 283655920,
+        "longitudeE7" : -815272020,
+        "placeId" : "ChIJ-cylLpl_3YgRLc_XNEh9I2I",
+        "name" : "Disney's Typhoon Lagoon Water Park",
+        "locationConfidence" : 0.8675756
+      }, {
+        "latitudeE7" : 283575294,
+        "longitudeE7" : -815582714,
+        "placeId" : "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+        "name" : "Disney's Hollywood Studios",
+        "locationConfidence" : 0.5039064
+      }, {
+        "latitudeE7" : 283654545,
+        "longitudeE7" : -815305170,
+        "placeId" : "ChIJbdeWy51_3YgRHVonr8_w_R8",
+        "name" : "Keelhaul Falls",
+        "locationConfidence" : 0.49415317
+      }, {
+        "latitudeE7" : 284153817,
+        "longitudeE7" : -815802965,
+        "placeId" : "ChIJgY7Cn5-A54gRA0B23c7s84c",
+        "name" : "Magic Kingdom",
+        "locationConfidence" : 0.3973389
+      }, {
+        "latitudeE7" : 284130604,
+        "longitudeE7" : -815856582,
+        "placeId" : "ChIJKf94n6CA54gR5zojI54bg5Y",
+        "name" : "Grand Floridian Dock",
+        "locationConfidence" : 0.21940032
+      }, {
+        "latitudeE7" : 283518490,
+        "longitudeE7" : -815752962,
+        "placeId" : "ChIJR-Pie-5-3YgRIbkma20qCQk",
+        "name" : "Summit Plummet",
+        "locationConfidence" : 0.2171826
+      }, {
+        "latitudeE7" : 283619805,
+        "longitudeE7" : -815426453,
+        "placeId" : "ChIJ69jUc6B_3YgRnm3X4zFqKLQ",
+        "name" : "Disney's Caribbean Beach Resort: Martinique",
+        "locationConfidence" : 0.18863113
+      }, {
+        "latitudeE7" : 284134544,
+        "longitudeE7" : -815618080,
+        "placeId" : "ChIJ41G5T4CA54gRT0P09mEBV7M",
+        "name" : "Fort Wilderness Launch Dock",
+        "locationConfidence" : 0.18154384
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 283630074,
+          "lngE7" : -815594493,
+          "timestampMs" : "1401671200575",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 283630130,
+          "lngE7" : -815727416,
+          "timestampMs" : "1401671703903",
+          "accuracyMeters" : 175
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401679026537",
+        "endTimestampMs" : "1401707704515"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 283630008,
+          "lngE7" : -815593948
+        }, {
+          "latE7" : 283696956,
+          "lngE7" : -815610504
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 283674646,
+        "longitudeE7" : -815606391,
+        "placeId" : "ChIJgUulalN-3YgREwn9nH_kADI",
+        "address" : "1500 Epcot Resorts Blvd\nLake Buena Vista, FL 32830\nUSA",
+        "name" : "Walt Disney World Dolphin Resort",
+        "locationConfidence" : 79.11585
+      },
+      "duration" : {
+        "startTimestampMs" : "1401739500448",
+        "endTimestampMs" : "1401745624333"
+      },
+      "centerLatE7" : 283686650,
+      "centerLngE7" : -815609450,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 283852330,
+        "longitudeE7" : -815638740,
+        "placeId" : "ChIJ96XKNOZ-3YgRoPEc0B85Hqc",
+        "name" : "Walt Disney World Resort",
+        "locationConfidence" : 15.554342
+      }, {
+        "latitudeE7" : 283702539,
+        "longitudeE7" : -815209851,
+        "placeId" : "ChIJ-0qgNoF_3YgRg3Lh7xHDooU",
+        "name" : "Disney Springs",
+        "locationConfidence" : 1.1204729
+      }, {
+        "latitudeE7" : 283678443,
+        "longitudeE7" : -815612984,
+        "placeId" : "ChIJgUulalN-3YgRs42Ug08IM7w",
+        "name" : "Shula's Steak House",
+        "locationConfidence" : 0.8570643
+      }, {
+        "latitudeE7" : 283690570,
+        "longitudeE7" : -815606330,
+        "placeId" : "ChIJgUulalN-3YgRtGHYNkccZ_c",
+        "name" : "Todd English's Bluezoo",
+        "locationConfidence" : 0.7417756
+      }, {
+        "latitudeE7" : 283655920,
+        "longitudeE7" : -815272020,
+        "placeId" : "ChIJ-cylLpl_3YgRLc_XNEh9I2I",
+        "name" : "Disney's Typhoon Lagoon Water Park",
+        "locationConfidence" : 0.18241017
+      }, {
+        "latitudeE7" : 283575294,
+        "longitudeE7" : -815582714,
+        "placeId" : "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+        "name" : "Disney's Hollywood Studios",
+        "locationConfidence" : 0.14163904
+      }, {
+        "latitudeE7" : 283654545,
+        "longitudeE7" : -815305170,
+        "placeId" : "ChIJbdeWy51_3YgRHVonr8_w_R8",
+        "name" : "Keelhaul Falls",
+        "locationConfidence" : 0.12960114
+      }, {
+        "latitudeE7" : 283666444,
+        "longitudeE7" : -815548663,
+        "placeId" : "ChIJ_6SiSap_3YgRA3VdftdSRPg",
+        "name" : "Disney's BoardWalk Inn",
+        "locationConfidence" : 0.10146572
+      }, {
+        "latitudeE7" : 283675259,
+        "longitudeE7" : -815606392,
+        "placeId" : "ChIJHyCxJlV-3YgRBYGe5Xj-u4Y",
+        "name" : "Alamo Rent A Car",
+        "locationConfidence" : 0.09677549
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401745624333",
+        "endTimestampMs" : "1401822756631"
+      },
+      "distance" : 385,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 283683586,
+          "lngE7" : -815613250
+        }, {
+          "latE7" : 283674621,
+          "lngE7" : -815607376
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 283674646,
+        "longitudeE7" : -815606391,
+        "placeId" : "ChIJgUulalN-3YgREwn9nH_kADI",
+        "address" : "1500 Epcot Resorts Blvd\nLake Buena Vista, FL 32830\nUSA",
+        "name" : "Walt Disney World Dolphin Resort",
+        "locationConfidence" : 68.20796
+      },
+      "duration" : {
+        "startTimestampMs" : "1401836144151",
+        "endTimestampMs" : "1401853391561"
+      },
+      "centerLatE7" : 283669671,
+      "centerLngE7" : -815603057,
+      "visitConfidence" : 73,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 283852330,
+        "longitudeE7" : -815638740,
+        "placeId" : "ChIJ96XKNOZ-3YgRoPEc0B85Hqc",
+        "name" : "Walt Disney World Resort",
+        "locationConfidence" : 22.12523
+      }, {
+        "latitudeE7" : 283656565,
+        "longitudeE7" : -815592116,
+        "placeId" : "ChIJgUulalN-3YgR4TA4BDQNyG0",
+        "name" : "Walt Disney World Swan",
+        "locationConfidence" : 1.6741681
+      }, {
+        "latitudeE7" : 283702539,
+        "longitudeE7" : -815209851,
+        "placeId" : "ChIJ-0qgNoF_3YgRg3Lh7xHDooU",
+        "name" : "Disney Springs",
+        "locationConfidence" : 1.5936915
+      }, {
+        "latitudeE7" : 283673227,
+        "longitudeE7" : -815576291,
+        "placeId" : "ChIJ_6SiSap_3YgRj7oli1jxGRM",
+        "name" : "Jellyrolls",
+        "locationConfidence" : 1.3364564
+      }, {
+        "latitudeE7" : 283678443,
+        "longitudeE7" : -815612984,
+        "placeId" : "ChIJgUulalN-3YgRs42Ug08IM7w",
+        "name" : "Shula's Steak House",
+        "locationConfidence" : 0.5821389
+      }, {
+        "latitudeE7" : 283575294,
+        "longitudeE7" : -815582714,
+        "placeId" : "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+        "name" : "Disney's Hollywood Studios",
+        "locationConfidence" : 0.4216135
+      }, {
+        "latitudeE7" : 283666444,
+        "longitudeE7" : -815548663,
+        "placeId" : "ChIJ_6SiSap_3YgRA3VdftdSRPg",
+        "name" : "Disney's BoardWalk Inn",
+        "locationConfidence" : 0.28850988
+      }, {
+        "latitudeE7" : 283677538,
+        "longitudeE7" : -815580144,
+        "placeId" : "ChIJ_6SiSap_3YgRuTEi-nBi81c",
+        "name" : "Atlantic Dance Hall",
+        "locationConfidence" : 0.27625757
+      }, {
+        "latitudeE7" : 283675259,
+        "longitudeE7" : -815606392,
+        "placeId" : "ChIJHyCxJlV-3YgRBYGe5Xj-u4Y",
+        "name" : "Alamo Rent A Car",
+        "locationConfidence" : 0.2732909
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 283671359,
+          "lngE7" : -815602138,
+          "timestampMs" : "1401836144151",
+          "accuracyMeters" : 65
+        }, {
+          "latE7" : 283667374,
+          "lngE7" : -815607584,
+          "timestampMs" : "1401845580394",
+          "accuracyMeters" : 65
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 283674646,
+        "longitudeE7" : -815606391,
+        "placeId" : "ChIJgUulalN-3YgREwn9nH_kADI",
+        "address" : "1500 Epcot Resorts Blvd\nLake Buena Vista, FL 32830\nUSA",
+        "name" : "Walt Disney World Dolphin Resort",
+        "locationConfidence" : 68.20796
+      },
+      "endLocation" : {
+        "latitudeE7" : 283674646,
+        "longitudeE7" : -815606391,
+        "placeId" : "ChIJgUulalN-3YgREwn9nH_kADI",
+        "address" : "1500 Epcot Resorts Blvd\nLake Buena Vista, FL 32830\nUSA",
+        "name" : "Walt Disney World Dolphin Resort",
+        "locationConfidence" : 76.8604
+      },
+      "duration" : {
+        "startTimestampMs" : "1401853391561",
+        "endTimestampMs" : "1401906371085"
+      },
+      "distance" : 317,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 283668231,
+          "lngE7" : -815607070
+        }, {
+          "latE7" : 283696956,
+          "lngE7" : -815610504
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 283674646,
+        "longitudeE7" : -815606391,
+        "placeId" : "ChIJgUulalN-3YgREwn9nH_kADI",
+        "address" : "1500 Epcot Resorts Blvd\nLake Buena Vista, FL 32830\nUSA",
+        "name" : "Walt Disney World Dolphin Resort",
+        "locationConfidence" : 76.8604
+      },
+      "duration" : {
+        "startTimestampMs" : "1401906371085",
+        "endTimestampMs" : "1401917859219"
+      },
+      "centerLatE7" : 283695618,
+      "centerLngE7" : -815608173,
+      "visitConfidence" : 74,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 283852330,
+        "longitudeE7" : -815638740,
+        "placeId" : "ChIJ96XKNOZ-3YgRoPEc0B85Hqc",
+        "name" : "Walt Disney World Resort",
+        "locationConfidence" : 17.984316
+      }, {
+        "latitudeE7" : 283702539,
+        "longitudeE7" : -815209851,
+        "placeId" : "ChIJ-0qgNoF_3YgRg3Lh7xHDooU",
+        "name" : "Disney Springs",
+        "locationConfidence" : 1.295847
+      }, {
+        "latitudeE7" : 283690570,
+        "longitudeE7" : -815606330,
+        "placeId" : "ChIJgUulalN-3YgRtGHYNkccZ_c",
+        "name" : "Todd English's Bluezoo",
+        "locationConfidence" : 0.59047705
+      }, {
+        "latitudeE7" : 283678443,
+        "longitudeE7" : -815612984,
+        "placeId" : "ChIJgUulalN-3YgRs42Ug08IM7w",
+        "name" : "Shula's Steak House",
+        "locationConfidence" : 0.32742062
+      }, {
+        "latitudeE7" : 283655920,
+        "longitudeE7" : -815272020,
+        "placeId" : "ChIJ-cylLpl_3YgRLc_XNEh9I2I",
+        "name" : "Disney's Typhoon Lagoon Water Park",
+        "locationConfidence" : 0.21089788
+      }, {
+        "latitudeE7" : 283708840,
+        "longitudeE7" : -815583900,
+        "placeId" : "ChIJKcIGPqx_3YgRbZtDFh2w2Gk",
+        "name" : "Disney's Yacht Club Resort",
+        "locationConfidence" : 0.19736238
+      }, {
+        "latitudeE7" : 283575294,
+        "longitudeE7" : -815582714,
+        "placeId" : "ChIJRx6CYyd83YgRD_HjNqPO_7s",
+        "name" : "Disney's Hollywood Studios",
+        "locationConfidence" : 0.18732476
+      }, {
+        "latitudeE7" : 283654545,
+        "longitudeE7" : -815305170,
+        "placeId" : "ChIJbdeWy51_3YgRHVonr8_w_R8",
+        "name" : "Keelhaul Falls",
+        "locationConfidence" : 0.18362841
+      }, {
+        "latitudeE7" : 283678443,
+        "longitudeE7" : -815612984,
+        "placeId" : "ChIJgUulalN-3YgRr-baOnaQLfY",
+        "name" : "National Car Rental",
+        "locationConfidence" : 0.16278562
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 283697271,
+          "lngE7" : -815607378,
+          "timestampMs" : "1401907087002",
+          "accuracyMeters" : 65
+        }, {
+          "latE7" : 283692487,
+          "lngE7" : -815610176,
+          "timestampMs" : "1401917858978",
+          "accuracyMeters" : 65
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401917859219",
+        "endTimestampMs" : "1401920793197"
+      },
+      "distance" : 741,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 283693714,
+          "lngE7" : -815611038
+        }, {
+          "latE7" : 283627853,
+          "lngE7" : -815594329
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401920793546",
+        "endTimestampMs" : "1401921994340"
+      },
+      "distance" : 17073,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 283627853,
+          "lngE7" : -815594329
+        }, {
+          "latE7" : 284739379,
+          "lngE7" : -814614868
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401921994340",
+        "endTimestampMs" : "1401933783901"
+      },
+      "distance" : 1189,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 284739379,
+          "lngE7" : -814614868
+        }, {
+          "latE7" : 284693260,
+          "lngE7" : -814671173
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401933783901",
+        "endTimestampMs" : "1401964398633"
+      },
+      "distance" : 49033,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 284693260,
+          "lngE7" : -814671173
+        }, {
+          "latE7" : 283618507,
+          "lngE7" : -815703048
+        }, {
+          "latE7" : 284290122,
+          "lngE7" : -813067016
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 283619633,
+          "lngE7" : -815704117,
+          "timestampMs" : "1401962880605",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401964398633",
+        "endTimestampMs" : "1401965277189"
+      },
+      "distance" : 689,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 284309730,
+          "lngE7" : -813055496
+        }, {
+          "latE7" : 284294528,
+          "lngE7" : -813051986
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401965277189",
+        "endTimestampMs" : "1401975836394"
+      },
+      "distance" : 651497,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401975836394",
+        "endTimestampMs" : "1401978483573"
+      },
+      "distance" : 1114,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 336371002,
+          "lngE7" : -844426345
+        }, {
+          "latE7" : 336410598,
+          "lngE7" : -844464569
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337766449,
+        "longitudeE7" : -843883772,
+        "placeId" : "ChIJjTu-9GYE9YgRLuE7sCZXJGM",
+        "address" : "48 5th St NW\nAtlanta, GA 30308\nUSA",
+        "name" : "Starbucks",
+        "locationConfidence" : 53.663494
+      },
+      "duration" : {
+        "startTimestampMs" : "1401979962073",
+        "endTimestampMs" : "1401982134869"
+      },
+      "centerLatE7" : 337771600,
+      "centerLngE7" : -843877400,
+      "visitConfidence" : 17,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 337775255,
+        "longitudeE7" : -843895077,
+        "placeId" : "ChIJL32AVGYE9YgR1zjRm_iGJyQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 20.554129
+      }, {
+        "latitudeE7" : 337756178,
+        "longitudeE7" : -843962850,
+        "placeId" : "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "name" : "Georgia Institute of Technology",
+        "locationConfidence" : 6.344387
+      }, {
+        "latitudeE7" : 337783490,
+        "longitudeE7" : -843874630,
+        "placeId" : "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+        "name" : "Renaissance Atlanta Midtown Hotel",
+        "locationConfidence" : 1.154475
+      }, {
+        "latitudeE7" : 337764024,
+        "longitudeE7" : -843892600,
+        "placeId" : "ChIJU_y6jWYE9YgR0nGJG2ELdqw",
+        "name" : "Georgia Tech Hotel & Conference Center",
+        "locationConfidence" : 0.9640092
+      }, {
+        "latitudeE7" : 337771054,
+        "longitudeE7" : -843876631,
+        "placeId" : "ChIJt-NPRWYE9YgR_8NxcPbTSXY",
+        "name" : "Parking Office",
+        "locationConfidence" : 0.82600063
+      }, {
+        "latitudeE7" : 337765667,
+        "longitudeE7" : -843880489,
+        "placeId" : "ChIJMZ4BXmYE9YgRb6ReJRITGSA",
+        "name" : "Scheller College of Business",
+        "locationConfidence" : 0.7440017
+      }, {
+        "latitudeE7" : 337766326,
+        "longitudeE7" : -843899559,
+        "placeId" : "ChIJe8K2wWYE9YgRKpGHFYwSVds",
+        "name" : "Walmart on Campus",
+        "locationConfidence" : 0.71448594
+      }, {
+        "latitudeE7" : 337765156,
+        "longitudeE7" : -843885341,
+        "placeId" : "ChIJyc9l82YE9YgRx8-ln6ML2To",
+        "name" : "Barnes & Noble",
+        "locationConfidence" : 0.68802124
+      }, {
+        "latitudeE7" : 337773102,
+        "longitudeE7" : -843861202,
+        "placeId" : "ChIJweczQWYE9YgRvtwgBTj9cUU",
+        "name" : "Cypress Street Pint and Plate",
+        "locationConfidence" : 0.6485108
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 337775255,
+        "longitudeE7" : -843895077,
+        "placeId" : "ChIJFc065WYE9YgR3M-qHSKW36k",
+        "address" : "75 5th St NW\nAtlanta, GA 30308\nUSA",
+        "name" : "75 5th St NW",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 33.130993
+      },
+      "duration" : {
+        "startTimestampMs" : "1401984874583",
+        "endTimestampMs" : "1401997667043"
+      },
+      "centerLatE7" : 337781583,
+      "centerLngE7" : -843876203,
+      "visitConfidence" : 78,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 337783490,
+        "longitudeE7" : -843874630,
+        "placeId" : "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+        "name" : "Renaissance Atlanta Midtown Hotel",
+        "locationConfidence" : 22.120028
+      }, {
+        "latitudeE7" : 337756178,
+        "longitudeE7" : -843962850,
+        "placeId" : "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "name" : "Georgia Institute of Technology",
+        "locationConfidence" : 11.198765
+      }, {
+        "latitudeE7" : 337766449,
+        "longitudeE7" : -843883772,
+        "placeId" : "ChIJjTu-9GYE9YgRLuE7sCZXJGM",
+        "name" : "Starbucks",
+        "locationConfidence" : 8.846359
+      }, {
+        "latitudeE7" : 337792295,
+        "longitudeE7" : -843883413,
+        "placeId" : "ChIJP_0zBGcE9YgRLpUD74Izmyg",
+        "name" : "The Cheetah",
+        "locationConfidence" : 1.9297818
+      }, {
+        "latitudeE7" : 337784055,
+        "longitudeE7" : -843877691,
+        "placeId" : "ChIJG4VmsWcE9YgRSONl7cr7xzo",
+        "name" : "Community Smith",
+        "locationConfidence" : 1.1060804
+      }, {
+        "latitudeE7" : 337778000,
+        "longitudeE7" : -843880530,
+        "placeId" : "ChIJL32AVGYE9YgRi7NCoPuMm7Q",
+        "name" : "Grain Bar Atlanta Spirits + Food",
+        "locationConfidence" : 1.1019167
+      }, {
+        "latitudeE7" : 337764024,
+        "longitudeE7" : -843892600,
+        "placeId" : "ChIJU_y6jWYE9YgR0nGJG2ELdqw",
+        "name" : "Georgia Tech Hotel & Conference Center",
+        "locationConfidence" : 1.041765
+      }, {
+        "latitudeE7" : 337779116,
+        "longitudeE7" : -843866447,
+        "placeId" : "ChIJr7zKzGcE9YgRruPzIkImKgc",
+        "name" : "Biltmore at Midtown Apartments",
+        "locationConfidence" : 0.9795805
+      }, {
+        "latitudeE7" : 337778823,
+        "longitudeE7" : -843845689,
+        "placeId" : "ChIJw6vKYWgE9YgRzv_1ap8QxFg",
+        "name" : "Gordon Biersch",
+        "locationConfidence" : 0.92559904
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1401999331154",
+        "endTimestampMs" : "1402012047461"
+      },
+      "distance" : 777655,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402012047461",
+        "endTimestampMs" : "1402014127557"
+      },
+      "distance" : 20282,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 387498130,
+          "lngE7" : -903785400
+        }, {
+          "latE7" : 387429695,
+          "lngE7" : -903675079
+        }, {
+          "latE7" : 386317024,
+          "lngE7" : -903549118
+        }, {
+          "latE7" : 385901870,
+          "lngE7" : -903970336
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 387443199,
+          "lngE7" : -903664093,
+          "timestampMs" : "1402012152478",
+          "accuracyMeters" : 100
+        }, {
+          "latE7" : 386317787,
+          "lngE7" : -903547363,
+          "timestampMs" : "1402013527346",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402014127557",
+        "endTimestampMs" : "1402028321590"
+      },
+      "distance" : 571,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385901527,
+          "lngE7" : -903970336
+        }, {
+          "latE7" : 385850601,
+          "lngE7" : -903972473
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 98.00755
+      },
+      "duration" : {
+        "startTimestampMs" : "1402028321590",
+        "endTimestampMs" : "1402035843457"
+      },
+      "centerLatE7" : 385849800,
+      "centerLngE7" : -903972700,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385848804,
+        "longitudeE7" : -903972364,
+        "placeId" : "ChIJO8FlvT7M2IcRSPwcBD26mpY",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.9496819
+      }, {
+        "latitudeE7" : 385854590,
+        "longitudeE7" : -903986300,
+        "placeId" : "ChIJj7HxNTnM2IcRnFNalR6I-Qo",
+        "name" : "Gerald M Dewulf & Associates Ltd",
+        "locationConfidence" : 0.012095301
+      }, {
+        "latitudeE7" : 385837622,
+        "longitudeE7" : -903970870,
+        "placeId" : "ChIJazwEIjzM2IcRhEMlA3AAIJw",
+        "name" : "The Chrysalis on Woodlawn",
+        "locationConfidence" : 0.0069536692
+      }, {
+        "latitudeE7" : 385827132,
+        "longitudeE7" : -903979862,
+        "placeId" : "ChIJ2ZleaTzM2IcRJ_yc5_h_aUY",
+        "name" : "Kirkwood Baptist Church",
+        "locationConfidence" : 0.004652959
+      }, {
+        "latitudeE7" : 385838243,
+        "longitudeE7" : -903974128,
+        "placeId" : "ChIJ3_ilHjzM2IcRl6_oIZgYO74",
+        "name" : "Nia",
+        "locationConfidence" : 0.004582657
+      }, {
+        "latitudeE7" : 385841980,
+        "longitudeE7" : -903978330,
+        "placeId" : "ChIJr1JtqD7M2IcRqNX3wAoaM5Q",
+        "name" : "Butterfly Life",
+        "locationConfidence" : 0.0041346443
+      }, {
+        "latitudeE7" : 385845990,
+        "longitudeE7" : -903983650,
+        "placeId" : "ChIJVdjVrD7M2IcRhU3TMdRqB1U",
+        "name" : "4100 E Iliff LLC",
+        "locationConfidence" : 0.004061821
+      }, {
+        "latitudeE7" : 385883784,
+        "longitudeE7" : -904009338,
+        "placeId" : "ChIJU_vYYzjM2IcRuK3K52uVFVk",
+        "locationConfidence" : 0.0014018889
+      }, {
+        "latitudeE7" : 385869973,
+        "longitudeE7" : -903961355,
+        "placeId" : "ChIJ28fCAD_M2IcRV2QlFhS4Y8M",
+        "name" : "Wenzels",
+        "locationConfidence" : 9.154302E-4
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 98.00755
+      },
+      "endLocation" : {
+        "latitudeE7" : 385738450,
+        "longitudeE7" : -904052600,
+        "placeId" : "ChIJnyDRKy_M2IcRNjCSLFQ3B4I",
+        "address" : "516 S Kirkwood Rd\nSt. Louis, MO 63122\nUSA",
+        "name" : "The Magic House, St. Louis Children's Museum",
+        "locationConfidence" : 78.08269
+      },
+      "duration" : {
+        "startTimestampMs" : "1402035843457",
+        "endTimestampMs" : "1402088238933"
+      },
+      "distance" : 1454,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385848655,
+          "lngE7" : -903971786
+        }, {
+          "latE7" : 385736923,
+          "lngE7" : -904056091
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385738450,
+        "longitudeE7" : -904052600,
+        "placeId" : "ChIJnyDRKy_M2IcRNjCSLFQ3B4I",
+        "address" : "516 S Kirkwood Rd\nSt. Louis, MO 63122\nUSA",
+        "name" : "The Magic House, St. Louis Children's Museum",
+        "locationConfidence" : 78.08269
+      },
+      "duration" : {
+        "startTimestampMs" : "1402088238933",
+        "endTimestampMs" : "1402097240255"
+      },
+      "centerLatE7" : 385736900,
+      "centerLngE7" : -904059440,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385746312,
+        "longitudeE7" : -904070829,
+        "placeId" : "ChIJ35DuwC7M2IcRtlJ8mIAUuhs",
+        "name" : "Panda Chinese",
+        "locationConfidence" : 12.094911
+      }, {
+        "latitudeE7" : 385747608,
+        "longitudeE7" : -904070573,
+        "placeId" : "ChIJ9bqd6i7M2IcRsb0zRiFxM80",
+        "name" : "Qdoba Mexican Grill",
+        "locationConfidence" : 2.3439121
+      }, {
+        "latitudeE7" : 385736131,
+        "longitudeE7" : -904072454,
+        "placeId" : "ChIJQQH6UynM2IcRsaEx2kVZ82E",
+        "name" : "Concordia Lutheran Church",
+        "locationConfidence" : 1.7329125
+      }, {
+        "latitudeE7" : 385745450,
+        "longitudeE7" : -904070411,
+        "placeId" : "ChIJVwA6xy7M2IcRGv_wS0R7k2Y",
+        "name" : "First Watch",
+        "locationConfidence" : 0.56877685
+      }, {
+        "latitudeE7" : 385752170,
+        "longitudeE7" : -904068920,
+        "placeId" : "ChIJ93wyRjHM2IcRPt_FgjU9ZL0",
+        "name" : "Smoothie King - Kirkwood",
+        "locationConfidence" : 0.48862624
+      }, {
+        "latitudeE7" : 385753839,
+        "longitudeE7" : -904073682,
+        "placeId" : "ChIJv7uC9C7M2IcRE_fYkN3mY9w",
+        "name" : "St. Luke's Urgent Care",
+        "locationConfidence" : 0.44302303
+      }, {
+        "latitudeE7" : 385746899,
+        "longitudeE7" : -904070680,
+        "placeId" : "ChIJLeBbwC7M2IcROSVc0xy16mw",
+        "name" : "Domino's Pizza",
+        "locationConfidence" : 0.42009124
+      }, {
+        "latitudeE7" : 385720113,
+        "longitudeE7" : -904055581,
+        "placeId" : "ChIJzxaUPynM2IcRnDkjcl73Raw",
+        "name" : "Nipher Middle School",
+        "locationConfidence" : 0.34181288
+      }, {
+        "latitudeE7" : 385750327,
+        "longitudeE7" : -904073702,
+        "placeId" : "ChIJuw0Q7S7M2IcROFxakz-bskM",
+        "name" : "Subway",
+        "locationConfidence" : 0.3373387
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402097240255",
+        "endTimestampMs" : "1402102522546"
+      },
+      "distance" : 6191,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385738487,
+          "lngE7" : -904056243
+        }, {
+          "latE7" : 385822563,
+          "lngE7" : -904063491
+        }, {
+          "latE7" : 385584411,
+          "lngE7" : -904541397
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385822144,
+          "lngE7" : -904061432,
+          "timestampMs" : "1402097646949",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402105101866",
+        "endTimestampMs" : "1402178384094"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386089422,
+        "longitudeE7" : -904340666,
+        "placeId" : "ChIJcZ4YuJ_N2IcRMTVIkmq84Xc",
+        "address" : "1510 Bopp Rd\nSt. Louis, MO 63131\nUSA",
+        "name" : "St Clement Church",
+        "locationConfidence" : 56.25019
+      },
+      "duration" : {
+        "startTimestampMs" : "1402178384094",
+        "endTimestampMs" : "1402181647232"
+      },
+      "centerLatE7" : 386098300,
+      "centerLngE7" : -904336700,
+      "visitConfidence" : 61,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386085519,
+        "longitudeE7" : -904342644,
+        "placeId" : "ChIJy8av2p_N2IcRUOLIvm0e7Xg",
+        "name" : "Saint Clement of Rome School",
+        "locationConfidence" : 31.415106
+      }, {
+        "latitudeE7" : 386081840,
+        "longitudeE7" : -904341400,
+        "placeId" : "ChIJtWDIUZ7N2IcRnvpM2D3qMwM",
+        "name" : "St Clements Youth Ministry",
+        "locationConfidence" : 5.4048715
+      }, {
+        "latitudeE7" : 386096069,
+        "longitudeE7" : -904331080,
+        "placeId" : "ChIJy8av2p_N2IcRa03EDZPoNjQ",
+        "name" : "St Clement Concession Stand",
+        "locationConfidence" : 4.73019
+      }, {
+        "latitudeE7" : 386109500,
+        "longitudeE7" : -904317049,
+        "placeId" : "ChIJrf8RTnXN2IcRYqM3tiOqCWo",
+        "name" : "Elizabeth Fryer, LMFT",
+        "locationConfidence" : 1.2555107
+      }, {
+        "latitudeE7" : 386108900,
+        "longitudeE7" : -904354060,
+        "placeId" : "ChIJ9zTZ73XN2IcR1jVOH_rmJdA",
+        "name" : "D S Noot & Associates",
+        "locationConfidence" : 0.5811802
+      }, {
+        "latitudeE7" : 386116240,
+        "longitudeE7" : -904356490,
+        "placeId" : "ChIJ0Y6g3XXN2IcR1p2oVcKHRh4",
+        "name" : "Charles D Mills LLC",
+        "locationConfidence" : 0.2710477
+      }, {
+        "latitudeE7" : 386124490,
+        "longitudeE7" : -904334620,
+        "placeId" : "ChIJW1GiBnXN2IcRqYZ_PmKqQwA",
+        "name" : "Concept Electrical Services",
+        "locationConfidence" : 0.09190462
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402198337776",
+        "endTimestampMs" : "1402351629949"
+      },
+      "distance" : 31390,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402351629949",
+        "endTimestampMs" : "1402359416194"
+      },
+      "distance" : 977,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 387337684,
+          "lngE7" : -903466949
+        }, {
+          "latE7" : 387361564,
+          "lngE7" : -903540191
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402359537651",
+        "endTimestampMs" : "1402366710225"
+      },
+      "distance" : 1398768,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402366710225",
+        "endTimestampMs" : "1402370665953"
+      },
+      "distance" : 54689,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 406804199,
+          "lngE7" : -741707458
+        }, {
+          "latE7" : 402898559,
+          "lngE7" : -740908050
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402370665953",
+        "endTimestampMs" : "1402479084556"
+      },
+      "distance" : 60759,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402479084556",
+        "endTimestampMs" : "1402479445108"
+      },
+      "distance" : 2952,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 406808319,
+          "lngE7" : -741949462
+        }, {
+          "latE7" : 406909484,
+          "lngE7" : -741883392
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402479445108",
+        "endTimestampMs" : "1402494008309"
+      },
+      "distance" : 1398824,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402494008309",
+        "endTimestampMs" : "1402496056220"
+      },
+      "distance" : 21797,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 387411727,
+          "lngE7" : -903690643
+        }, {
+          "latE7" : 385850677,
+          "lngE7" : -903975372
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 97.95515
+      },
+      "duration" : {
+        "startTimestampMs" : "1402530817607",
+        "endTimestampMs" : "1402539830681"
+      },
+      "centerLatE7" : 385850467,
+      "centerLngE7" : -903973133,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385848804,
+        "longitudeE7" : -903972364,
+        "placeId" : "ChIJO8FlvT7M2IcRSPwcBD26mpY",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.9950699
+      }, {
+        "latitudeE7" : 385854590,
+        "longitudeE7" : -903986300,
+        "placeId" : "ChIJj7HxNTnM2IcRnFNalR6I-Qo",
+        "name" : "Gerald M Dewulf & Associates Ltd",
+        "locationConfidence" : 0.014789821
+      }, {
+        "latitudeE7" : 385837622,
+        "longitudeE7" : -903970870,
+        "placeId" : "ChIJazwEIjzM2IcRhEMlA3AAIJw",
+        "name" : "The Chrysalis on Woodlawn",
+        "locationConfidence" : 0.007870676
+      }, {
+        "latitudeE7" : 385838243,
+        "longitudeE7" : -903974128,
+        "placeId" : "ChIJ3_ilHjzM2IcRl6_oIZgYO74",
+        "name" : "Nia",
+        "locationConfidence" : 0.005211932
+      }, {
+        "latitudeE7" : 385827132,
+        "longitudeE7" : -903979862,
+        "placeId" : "ChIJ2ZleaTzM2IcRJ_yc5_h_aUY",
+        "name" : "Kirkwood Baptist Church",
+        "locationConfidence" : 0.005002394
+      }, {
+        "latitudeE7" : 385845990,
+        "longitudeE7" : -903983650,
+        "placeId" : "ChIJVdjVrD7M2IcRhU3TMdRqB1U",
+        "name" : "4100 E Iliff LLC",
+        "locationConfidence" : 0.004802889
+      }, {
+        "latitudeE7" : 385841980,
+        "longitudeE7" : -903978330,
+        "placeId" : "ChIJr1JtqD7M2IcRqNX3wAoaM5Q",
+        "name" : "Butterfly Life",
+        "locationConfidence" : 0.0047692605
+      }, {
+        "latitudeE7" : 385883784,
+        "longitudeE7" : -904009338,
+        "placeId" : "ChIJU_vYYzjM2IcRuK3K52uVFVk",
+        "locationConfidence" : 0.0016935418
+      }, {
+        "latitudeE7" : 385869973,
+        "longitudeE7" : -903961355,
+        "placeId" : "ChIJ28fCAD_M2IcRV2QlFhS4Y8M",
+        "name" : "Wenzels",
+        "locationConfidence" : 0.0011211025
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402539830681",
+        "endTimestampMs" : "1402572750639"
+      },
+      "distance" : 21398,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850715,
+          "lngE7" : -903975524
+        }, {
+          "latE7" : 385705451,
+          "lngE7" : -904135665
+        }, {
+          "latE7" : 385672836,
+          "lngE7" : -904757232
+        }, {
+          "latE7" : 385725517,
+          "lngE7" : -904605331
+        }, {
+          "latE7" : 385604629,
+          "lngE7" : -904456939
+        }, {
+          "latE7" : 385695343,
+          "lngE7" : -904333267
+        }, {
+          "latE7" : 385850677,
+          "lngE7" : -903974685
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385705643,
+          "lngE7" : -904135666,
+          "timestampMs" : "1402569135529",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385673256,
+          "lngE7" : -904756851,
+          "timestampMs" : "1402570037518",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385725632,
+          "lngE7" : -904605255,
+          "timestampMs" : "1402570338348",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385605392,
+          "lngE7" : -904457474,
+          "timestampMs" : "1402570939300",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385762482,
+          "lngE7" : -904692154,
+          "timestampMs" : "1402571540513",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385695419,
+          "lngE7" : -904333267,
+          "timestampMs" : "1402572141395",
+          "accuracyMeters" : 5
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402572750639",
+        "endTimestampMs" : "1402576426769"
+      },
+      "distance" : 564,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850677,
+          "lngE7" : -903974685
+        }, {
+          "latE7" : 385852661,
+          "lngE7" : -904039688
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402576426769",
+        "endTimestampMs" : "1402585217901"
+      },
+      "distance" : 6820,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385852661,
+          "lngE7" : -904039688
+        }, {
+          "latE7" : 385850639,
+          "lngE7" : -903972625
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 97.89029
+      },
+      "duration" : {
+        "startTimestampMs" : "1402585217901",
+        "endTimestampMs" : "1402588242364"
+      },
+      "centerLatE7" : 385849400,
+      "centerLngE7" : -903973800,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385848804,
+        "longitudeE7" : -903972364,
+        "placeId" : "ChIJO8FlvT7M2IcRSPwcBD26mpY",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.0714123
+      }, {
+        "latitudeE7" : 385837622,
+        "longitudeE7" : -903970870,
+        "placeId" : "ChIJazwEIjzM2IcRhEMlA3AAIJw",
+        "name" : "The Chrysalis on Woodlawn",
+        "locationConfidence" : 0.0081152525
+      }, {
+        "latitudeE7" : 385854590,
+        "longitudeE7" : -903986300,
+        "placeId" : "ChIJj7HxNTnM2IcRnFNalR6I-Qo",
+        "name" : "Gerald M Dewulf & Associates Ltd",
+        "locationConfidence" : 0.0065561607
+      }, {
+        "latitudeE7" : 385827132,
+        "longitudeE7" : -903979862,
+        "placeId" : "ChIJ2ZleaTzM2IcRJ_yc5_h_aUY",
+        "name" : "Kirkwood Baptist Church",
+        "locationConfidence" : 0.0049170367
+      }, {
+        "latitudeE7" : 385838243,
+        "longitudeE7" : -903974128,
+        "placeId" : "ChIJ3_ilHjzM2IcRl6_oIZgYO74",
+        "name" : "Nia",
+        "locationConfidence" : 0.00424108
+      }, {
+        "latitudeE7" : 385841980,
+        "longitudeE7" : -903978330,
+        "placeId" : "ChIJr1JtqD7M2IcRqNX3wAoaM5Q",
+        "name" : "Butterfly Life",
+        "locationConfidence" : 0.004125717
+      }, {
+        "latitudeE7" : 385845990,
+        "longitudeE7" : -903983650,
+        "placeId" : "ChIJVdjVrD7M2IcRhU3TMdRqB1U",
+        "name" : "4100 E Iliff LLC",
+        "locationConfidence" : 0.004098878
+      }, {
+        "latitudeE7" : 385832430,
+        "longitudeE7" : -903973830,
+        "placeId" : "ChIJRbrxFjzM2IcRikc-pchm7hk",
+        "name" : "Adams Ave @ Woodlawn Ave WB",
+        "locationConfidence" : 0.0013728077
+      }, {
+        "latitudeE7" : 385869973,
+        "longitudeE7" : -903961355,
+        "placeId" : "ChIJ28fCAD_M2IcRV2QlFhS4Y8M",
+        "name" : "Wenzels",
+        "locationConfidence" : 9.694773E-4
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402618700595",
+        "endTimestampMs" : "1402678740832"
+      },
+      "distance" : 24350,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850715,
+          "lngE7" : -903975982
+        }, {
+          "latE7" : 385705490,
+          "lngE7" : -904141006
+        }, {
+          "latE7" : 385609321,
+          "lngE7" : -904608001
+        }, {
+          "latE7" : 385696487,
+          "lngE7" : -904751739
+        }, {
+          "latE7" : 385671272,
+          "lngE7" : -904425506
+        }, {
+          "latE7" : 385742950,
+          "lngE7" : -904130401
+        }, {
+          "latE7" : 385852165,
+          "lngE7" : -904039688
+        }, {
+          "latE7" : 385900993,
+          "lngE7" : -903865509
+        }, {
+          "latE7" : 385848350,
+          "lngE7" : -903971786
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385705719,
+          "lngE7" : -904141006,
+          "timestampMs" : "1402655872101",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385608292,
+          "lngE7" : -904606476,
+          "timestampMs" : "1402656472118",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385695953,
+          "lngE7" : -904750748,
+          "timestampMs" : "1402656772162",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385670738,
+          "lngE7" : -904425507,
+          "timestampMs" : "1402657373229",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385609016,
+          "lngE7" : -904431381,
+          "timestampMs" : "1402657676854",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385742912,
+          "lngE7" : -904130402,
+          "timestampMs" : "1402659177133",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385850677,
+          "lngE7" : -904039536,
+          "timestampMs" : "1402659477967",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385897484,
+          "lngE7" : -903865433,
+          "timestampMs" : "1402674848395",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 96.88335
+      },
+      "duration" : {
+        "startTimestampMs" : "1402678740832",
+        "endTimestampMs" : "1402683036785"
+      },
+      "centerLatE7" : 385848450,
+      "centerLngE7" : -903972750,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385848804,
+        "longitudeE7" : -903972364,
+        "placeId" : "ChIJO8FlvT7M2IcRSPwcBD26mpY",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 3.0462108
+      }, {
+        "latitudeE7" : 385854590,
+        "longitudeE7" : -903986300,
+        "placeId" : "ChIJj7HxNTnM2IcRnFNalR6I-Qo",
+        "name" : "Gerald M Dewulf & Associates Ltd",
+        "locationConfidence" : 0.018189402
+      }, {
+        "latitudeE7" : 385837622,
+        "longitudeE7" : -903970870,
+        "placeId" : "ChIJazwEIjzM2IcRhEMlA3AAIJw",
+        "name" : "The Chrysalis on Woodlawn",
+        "locationConfidence" : 0.011951057
+      }, {
+        "latitudeE7" : 385827132,
+        "longitudeE7" : -903979862,
+        "placeId" : "ChIJ2ZleaTzM2IcRJ_yc5_h_aUY",
+        "name" : "Kirkwood Baptist Church",
+        "locationConfidence" : 0.00797858
+      }, {
+        "latitudeE7" : 385838243,
+        "longitudeE7" : -903974128,
+        "placeId" : "ChIJ3_ilHjzM2IcRl6_oIZgYO74",
+        "name" : "Nia",
+        "locationConfidence" : 0.007954738
+      }, {
+        "latitudeE7" : 385841980,
+        "longitudeE7" : -903978330,
+        "placeId" : "ChIJr1JtqD7M2IcRqNX3wAoaM5Q",
+        "name" : "Butterfly Life",
+        "locationConfidence" : 0.0073756278
+      }, {
+        "latitudeE7" : 385845990,
+        "longitudeE7" : -903983650,
+        "placeId" : "ChIJVdjVrD7M2IcRhU3TMdRqB1U",
+        "name" : "4100 E Iliff LLC",
+        "locationConfidence" : 0.0068460316
+      }, {
+        "latitudeE7" : 385883784,
+        "longitudeE7" : -904009338,
+        "placeId" : "ChIJU_vYYzjM2IcRuK3K52uVFVk",
+        "locationConfidence" : 0.0025362342
+      }, {
+        "latitudeE7" : 385828119,
+        "longitudeE7" : -903987950,
+        "placeId" : "ChIJz6gt8zvM2IcRQKZl2o2jaho",
+        "name" : "Hope Unlimited",
+        "locationConfidence" : 0.0013945092
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402683036785",
+        "endTimestampMs" : "1402689170011"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385848350,
+          "lngE7" : -903971786
+        }, {
+          "latE7" : 385886459,
+          "lngE7" : -903901596
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402689170011",
+        "endTimestampMs" : "1402766839760"
+      },
+      "distance" : 593008,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385886459,
+          "lngE7" : -903901596
+        }, {
+          "latE7" : 397979316,
+          "lngE7" : -915166168
+        }, {
+          "latE7" : 422029609,
+          "lngE7" : -912041015
+        }, {
+          "latE7" : 422943687,
+          "lngE7" : -910453262
+        }, {
+          "latE7" : 424693031,
+          "lngE7" : -910963134
+        }, {
+          "latE7" : 424791793,
+          "lngE7" : -911202392
+        }, {
+          "latE7" : 424885444,
+          "lngE7" : -911356506
+        }, {
+          "latE7" : 424867439,
+          "lngE7" : -911263198
+        }, {
+          "latE7" : 424742202,
+          "lngE7" : -911142654
+        }, {
+          "latE7" : 425137176,
+          "lngE7" : -907408218
+        }, {
+          "latE7" : 425218544,
+          "lngE7" : -906954193
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 397979317,
+          "lngE7" : -915166321,
+          "timestampMs" : "1402699547536",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 422029495,
+          "lngE7" : -912040863,
+          "timestampMs" : "1402708940741",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 422943687,
+          "lngE7" : -910453262,
+          "timestampMs" : "1402709481498",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 424694252,
+          "lngE7" : -910963211,
+          "timestampMs" : "1402754672091",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 424788284,
+          "lngE7" : -911203461,
+          "timestampMs" : "1402763910413",
+          "accuracyMeters" : 65
+        }, {
+          "latE7" : 424885445,
+          "lngE7" : -911355667,
+          "timestampMs" : "1402764615396",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 424867516,
+          "lngE7" : -911263199,
+          "timestampMs" : "1402764735465",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 424742470,
+          "lngE7" : -911143570,
+          "timestampMs" : "1402764915614",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 425137177,
+          "lngE7" : -907408295,
+          "timestampMs" : "1402766418700",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 425221520,
+        "longitudeE7" : -906954620,
+        "placeId" : "ChIJR_gtIZMs44cR7wgDTDjLifI",
+        "address" : "1011 Shady Ln\nDubuque, IA 52001\nUSA",
+        "name" : "1011 Shady Ln",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 96.885345
+      },
+      "duration" : {
+        "startTimestampMs" : "1402766839760",
+        "endTimestampMs" : "1402782586020"
+      },
+      "centerLatE7" : 425219367,
+      "centerLngE7" : -906952433,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 425209659,
+        "longitudeE7" : -906937183,
+        "placeId" : "ChIJCbJZX5Is44cRMb6logxzfX0",
+        "name" : "Sound Expressions",
+        "locationConfidence" : 2.4276452
+      }, {
+        "latitudeE7" : 425213130,
+        "longitudeE7" : -906943810,
+        "placeId" : "ChIJmZWF-pIs44cRB1BMFhs_avI",
+        "name" : "Beighle Gene",
+        "locationConfidence" : 0.4516048
+      }, {
+        "latitudeE7" : 425239870,
+        "longitudeE7" : -906948309,
+        "placeId" : "ChIJj_6kZpMs44cRic3QjYG-f_Y",
+        "name" : "Tech Deco Art",
+        "locationConfidence" : 0.08413302
+      }, {
+        "latitudeE7" : 425213505,
+        "longitudeE7" : -906937885,
+        "placeId" : "ChIJRb89-JIs44cRcDMH_knCVz0",
+        "name" : "Gary Olsen Video",
+        "locationConfidence" : 0.048623726
+      }, {
+        "latitudeE7" : 425205340,
+        "longitudeE7" : -906937430,
+        "placeId" : "ChIJfw_8YJIs44cR0TMScOBL8NE",
+        "name" : "Peace of Mind House and Pet Sitting",
+        "locationConfidence" : 0.045542445
+      }, {
+        "latitudeE7" : 425219000,
+        "longitudeE7" : -906920600,
+        "placeId" : "ChIJ65BKLZIs44cRBXNhH2izLEg",
+        "name" : "G E Charley Dubuque/Chicago",
+        "locationConfidence" : 0.029818743
+      }, {
+        "latitudeE7" : 425200200,
+        "longitudeE7" : -906941049,
+        "placeId" : "ChIJYysTiZIs44cRev_2sBXEVk0",
+        "name" : "970 boyer",
+        "locationConfidence" : 0.012272218
+      }, {
+        "latitudeE7" : 425244466,
+        "longitudeE7" : -906967542,
+        "placeId" : "ChIJ2ZhEVuss44cRAwBfvHUx-40",
+        "name" : "Esser Custom Cabinets",
+        "locationConfidence" : 0.0121692205
+      }, {
+        "latitudeE7" : 425200999,
+        "longitudeE7" : -906979366,
+        "placeId" : "ChIJL5Q_bu0s44cR6PPkiYPX5ag",
+        "name" : "J & J Tree Services",
+        "locationConfidence" : 0.002842175
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402782586020",
+        "endTimestampMs" : "1402793747636"
+      },
+      "distance" : 8433,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 425219001,
+          "lngE7" : -906952743
+        }, {
+          "latE7" : 425118713,
+          "lngE7" : -907197113
+        }, {
+          "latE7" : 424957580,
+          "lngE7" : -906649703
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 425115662,
+          "lngE7" : -907199402,
+          "timestampMs" : "1402787670492",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402793747636",
+        "endTimestampMs" : "1402796339406"
+      },
+      "distance" : 801,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 424957962,
+          "lngE7" : -906650772
+        }, {
+          "latE7" : 424999809,
+          "lngE7" : -906575851
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 425000988,
+        "longitudeE7" : -906539275,
+        "placeId" : "ChIJO_4nU6Mr44cRa3dPl1uOYIQ",
+        "address" : "E Commercial St\nDubuque, IA 52001\nUSA",
+        "name" : "Dubuque Shot Tower",
+        "locationConfidence" : 75.340164
+      },
+      "duration" : {
+        "startTimestampMs" : "1402796339406",
+        "endTimestampMs" : "1402797375157"
+      },
+      "centerLatE7" : 424996450,
+      "centerLngE7" : -906585950,
+      "visitConfidence" : 32,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 424975044,
+        "longitudeE7" : -906590229,
+        "placeId" : "ChIJdzy8KJYr44cRJa1u2G4vT1U",
+        "name" : "Cherry Lanes",
+        "locationConfidence" : 9.662022
+      }, {
+        "latitudeE7" : 424973848,
+        "longitudeE7" : -906591770,
+        "placeId" : "ChIJVRXrgr0r44cRGby7gZ9FMdU",
+        "name" : "Diamond Jo Casino",
+        "locationConfidence" : 4.085276
+      }, {
+        "latitudeE7" : 424970595,
+        "longitudeE7" : -906562936,
+        "placeId" : "ChIJucnPgr0r44cR3Lm346J6KZ8",
+        "name" : "Grand Harbor Resort & Waterpark",
+        "locationConfidence" : 2.215841
+      }, {
+        "latitudeE7" : 424989339,
+        "longitudeE7" : -906568698,
+        "placeId" : "ChIJVRXrgr0r44cRHuX2yfns7Bk",
+        "name" : "The McGraw-Hill Companies",
+        "locationConfidence" : 2.2116678
+      }, {
+        "latitudeE7" : 424981065,
+        "longitudeE7" : -906593051,
+        "placeId" : "ChIJMcDJyJcr44cRIpNf5wyTLSU",
+        "name" : "Port of Dubuque Parking Facility",
+        "locationConfidence" : 1.9215152
+      }, {
+        "latitudeE7" : 424980643,
+        "longitudeE7" : -906552778,
+        "placeId" : "ChIJyaFJ5Lwr44cRbpvGF8BIPqI",
+        "name" : "Grand River Center",
+        "locationConfidence" : 1.0697894
+      }, {
+        "latitudeE7" : 424973959,
+        "longitudeE7" : -906591366,
+        "placeId" : "ChIJ-3MPJZYr44cRrHBHllB4ZT0",
+        "name" : "Woodfire Grille",
+        "locationConfidence" : 0.853089
+      }, {
+        "latitudeE7" : 424974173,
+        "longitudeE7" : -906590262,
+        "placeId" : "ChIJs8w5KZYr44cRm64qWUMVlCk",
+        "name" : "The Kitchen Buffet",
+        "locationConfidence" : 0.8254209
+      }, {
+        "latitudeE7" : 424974148,
+        "longitudeE7" : -906590739,
+        "placeId" : "ChIJVRXrgr0r44cRVHZiTV9Wna8",
+        "name" : "Jo's Delicatessen",
+        "locationConfidence" : 0.39675882
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402797778359",
+        "endTimestampMs" : "1402811704291"
+      },
+      "distance" : 3966,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 424998970,
+          "lngE7" : -906574020
+        }, {
+          "latE7" : 425224189,
+          "lngE7" : -906946334
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 425221520,
+        "longitudeE7" : -906954620,
+        "placeId" : "ChIJR_gtIZMs44cR7wgDTDjLifI",
+        "address" : "1011 Shady Ln\nDubuque, IA 52001\nUSA",
+        "name" : "1011 Shady Ln",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 98.45893
+      },
+      "duration" : {
+        "startTimestampMs" : "1402831458880",
+        "endTimestampMs" : "1402840495674"
+      },
+      "centerLatE7" : 425221950,
+      "centerLngE7" : -906952050,
+      "visitConfidence" : 75,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 425209659,
+        "longitudeE7" : -906937183,
+        "placeId" : "ChIJCbJZX5Is44cRMb6logxzfX0",
+        "name" : "Sound Expressions",
+        "locationConfidence" : 0.96613157
+      }, {
+        "latitudeE7" : 425213130,
+        "longitudeE7" : -906943810,
+        "placeId" : "ChIJmZWF-pIs44cRB1BMFhs_avI",
+        "name" : "Beighle Gene",
+        "locationConfidence" : 0.33147892
+      }, {
+        "latitudeE7" : 425239870,
+        "longitudeE7" : -906948309,
+        "placeId" : "ChIJj_6kZpMs44cRic3QjYG-f_Y",
+        "name" : "Tech Deco Art",
+        "locationConfidence" : 0.093795985
+      }, {
+        "latitudeE7" : 425213505,
+        "longitudeE7" : -906937885,
+        "placeId" : "ChIJRb89-JIs44cRcDMH_knCVz0",
+        "name" : "Gary Olsen Video",
+        "locationConfidence" : 0.06882516
+      }, {
+        "latitudeE7" : 425205340,
+        "longitudeE7" : -906937430,
+        "placeId" : "ChIJfw_8YJIs44cR0TMScOBL8NE",
+        "name" : "Peace of Mind House and Pet Sitting",
+        "locationConfidence" : 0.029077768
+      }, {
+        "latitudeE7" : 425219000,
+        "longitudeE7" : -906920600,
+        "placeId" : "ChIJ65BKLZIs44cRBXNhH2izLEg",
+        "name" : "G E Charley Dubuque/Chicago",
+        "locationConfidence" : 0.024444818
+      }, {
+        "latitudeE7" : 425244466,
+        "longitudeE7" : -906967542,
+        "placeId" : "ChIJ2ZhEVuss44cRAwBfvHUx-40",
+        "name" : "Esser Custom Cabinets",
+        "locationConfidence" : 0.0184905
+      }, {
+        "latitudeE7" : 425200200,
+        "longitudeE7" : -906941049,
+        "placeId" : "ChIJYysTiZIs44cRev_2sBXEVk0",
+        "name" : "970 boyer",
+        "locationConfidence" : 0.006738956
+      }, {
+        "latitudeE7" : 425200999,
+        "longitudeE7" : -906979366,
+        "placeId" : "ChIJL5Q_bu0s44cR6PPkiYPX5ag",
+        "name" : "J & J Tree Services",
+        "locationConfidence" : 0.0020877728
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402868301832",
+        "endTimestampMs" : "1402892168092"
+      },
+      "distance" : 530061,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 425218811,
+          "lngE7" : -906953430
+        }, {
+          "latE7" : 395589790,
+          "lngE7" : -913876647
+        }, {
+          "latE7" : 385848579,
+          "lngE7" : -903971786
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 395589828,
+          "lngE7" : -913876572,
+          "timestampMs" : "1402885257760",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1402920017019",
+        "endTimestampMs" : "1402956131763"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850639,
+          "lngE7" : -903972549
+        }, {
+          "latE7" : 385852165,
+          "lngE7" : -904039688
+        }, {
+          "latE7" : 386366424,
+          "lngE7" : -905527877
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385851936,
+          "lngE7" : -904037247,
+          "timestampMs" : "1402954631574",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386360072,
+        "longitudeE7" : -905517902,
+        "placeId" : "ChIJbcEKgMTU2IcRT41dcePz3vk",
+        "address" : "1896 Cedarmill Dr\nChesterfield, MO 63017\nUSA",
+        "name" : "1896 Cedarmill Dr",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 96.65259
+      },
+      "duration" : {
+        "startTimestampMs" : "1402956131763",
+        "endTimestampMs" : "1402958589515"
+      },
+      "centerLatE7" : 386364767,
+      "centerLngE7" : -905522333,
+      "visitConfidence" : 52,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386360322,
+        "longitudeE7" : -905520817,
+        "placeId" : "ChIJ19cMgMTU2IcRjAREcEh-MVo",
+        "name" : "Cedarmill Bath and Tennis Club",
+        "locationConfidence" : 2.5823069
+      }, {
+        "latitudeE7" : 386367330,
+        "longitudeE7" : -905515360,
+        "placeId" : "ChIJ-TNuY8TU2IcRb3fNEenHWsQ",
+        "name" : "Colleen A. Cashner, RN",
+        "locationConfidence" : 0.29122195
+      }, {
+        "latitudeE7" : 386367059,
+        "longitudeE7" : -905535370,
+        "placeId" : "ChIJ4VmZusTU2IcRkE5sa3ru6HU",
+        "name" : "Dr. John T. Porvaznik, MD",
+        "locationConfidence" : 0.18215333
+      }, {
+        "latitudeE7" : 386388919,
+        "longitudeE7" : -905517654,
+        "placeId" : "ChIJtXcAqsXU2IcRxqZj2kUQIgM",
+        "name" : "Yellowbean Foods Llc",
+        "locationConfidence" : 0.14944874
+      }, {
+        "latitudeE7" : 386368047,
+        "longitudeE7" : -905541610,
+        "placeId" : "ChIJO0oms8TU2IcR5d50QjT2x8M",
+        "name" : "Daniel Robert CPA",
+        "locationConfidence" : 0.068728775
+      }, {
+        "latitudeE7" : 386381740,
+        "longitudeE7" : -905517629,
+        "placeId" : "ChIJCbkYVsTU2IcROgvdLTtgh94",
+        "name" : "I M Byung Gap",
+        "locationConfidence" : 0.029731866
+      }, {
+        "latitudeE7" : 386364712,
+        "longitudeE7" : -905544104,
+        "placeId" : "ChIJZTp6UtvU2IcRl3G7aL7IfvI",
+        "name" : "Pratte Fixture Co",
+        "locationConfidence" : 0.01719534
+      }, {
+        "latitudeE7" : 386387820,
+        "longitudeE7" : -905532770,
+        "placeId" : "ChIJFerNJsXU2IcRLa4vRMJVtLc",
+        "name" : "Deck Cleaning and Sealing St. Louis County",
+        "locationConfidence" : 0.016365027
+      }, {
+        "latitudeE7" : 386376659,
+        "longitudeE7" : -905554624,
+        "placeId" : "ChIJsXVdFtvU2IcRMwQN0bJEY30",
+        "name" : "R X Gems Inc",
+        "locationConfidence" : 0.005632356
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386360072,
+        "longitudeE7" : -905517902,
+        "placeId" : "ChIJbcEKgMTU2IcRT41dcePz3vk",
+        "address" : "1896 Cedarmill Dr\nChesterfield, MO 63017\nUSA",
+        "name" : "1896 Cedarmill Dr",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 96.63863
+      },
+      "duration" : {
+        "startTimestampMs" : "1402962821877",
+        "endTimestampMs" : "1402964542378"
+      },
+      "centerLatE7" : 386361733,
+      "centerLngE7" : -905520900,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386360322,
+        "longitudeE7" : -905520817,
+        "placeId" : "ChIJ19cMgMTU2IcRjAREcEh-MVo",
+        "name" : "Cedarmill Bath and Tennis Club",
+        "locationConfidence" : 2.634173
+      }, {
+        "latitudeE7" : 386367330,
+        "longitudeE7" : -905515360,
+        "placeId" : "ChIJ-TNuY8TU2IcRb3fNEenHWsQ",
+        "name" : "Colleen A. Cashner, RN",
+        "locationConfidence" : 0.16546261
+      }, {
+        "latitudeE7" : 386342055,
+        "longitudeE7" : -905495321,
+        "placeId" : "ChIJhZnf6MUq34cRPke8cwRPYcg",
+        "name" : "A Rockin' DJ Jimmy Hussey",
+        "locationConfidence" : 0.1594025
+      }, {
+        "latitudeE7" : 386388919,
+        "longitudeE7" : -905517654,
+        "placeId" : "ChIJtXcAqsXU2IcRxqZj2kUQIgM",
+        "name" : "Yellowbean Foods Llc",
+        "locationConfidence" : 0.1345944
+      }, {
+        "latitudeE7" : 386367059,
+        "longitudeE7" : -905535370,
+        "placeId" : "ChIJ4VmZusTU2IcRkE5sa3ru6HU",
+        "name" : "Dr. John T. Porvaznik, MD",
+        "locationConfidence" : 0.12178081
+      }, {
+        "latitudeE7" : 386368047,
+        "longitudeE7" : -905541610,
+        "placeId" : "ChIJO0oms8TU2IcR5d50QjT2x8M",
+        "name" : "Daniel Robert CPA",
+        "locationConfidence" : 0.0589208
+      }, {
+        "latitudeE7" : 386381740,
+        "longitudeE7" : -905517629,
+        "placeId" : "ChIJCbkYVsTU2IcROgvdLTtgh94",
+        "name" : "I M Byung Gap",
+        "locationConfidence" : 0.02404872
+      }, {
+        "latitudeE7" : 386364712,
+        "longitudeE7" : -905544104,
+        "placeId" : "ChIJZTp6UtvU2IcRl3G7aL7IfvI",
+        "name" : "Pratte Fixture Co",
+        "locationConfidence" : 0.018715696
+      }, {
+        "latitudeE7" : 386387820,
+        "longitudeE7" : -905532770,
+        "placeId" : "ChIJFerNJsXU2IcRLa4vRMJVtLc",
+        "name" : "Deck Cleaning and Sealing St. Louis County",
+        "locationConfidence" : 0.0140541755
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386360072,
+        "longitudeE7" : -905517902,
+        "placeId" : "ChIJbcEKgMTU2IcRT41dcePz3vk",
+        "address" : "1896 Cedarmill Dr\nChesterfield, MO 63017\nUSA",
+        "name" : "1896 Cedarmill Dr",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 96.398674
+      },
+      "duration" : {
+        "startTimestampMs" : "1402966567936",
+        "endTimestampMs" : "1402969105995"
+      },
+      "centerLatE7" : 386363800,
+      "centerLngE7" : -905522200,
+      "visitConfidence" : 76,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386360322,
+        "longitudeE7" : -905520817,
+        "placeId" : "ChIJ19cMgMTU2IcRjAREcEh-MVo",
+        "name" : "Cedarmill Bath and Tennis Club",
+        "locationConfidence" : 2.8028038
+      }, {
+        "latitudeE7" : 386388919,
+        "longitudeE7" : -905517654,
+        "placeId" : "ChIJtXcAqsXU2IcRxqZj2kUQIgM",
+        "name" : "Yellowbean Foods Llc",
+        "locationConfidence" : 0.24822196
+      }, {
+        "latitudeE7" : 386367330,
+        "longitudeE7" : -905515360,
+        "placeId" : "ChIJ-TNuY8TU2IcRb3fNEenHWsQ",
+        "name" : "Colleen A. Cashner, RN",
+        "locationConfidence" : 0.19820586
+      }, {
+        "latitudeE7" : 386367059,
+        "longitudeE7" : -905535370,
+        "placeId" : "ChIJ4VmZusTU2IcRkE5sa3ru6HU",
+        "name" : "Dr. John T. Porvaznik, MD",
+        "locationConfidence" : 0.15629062
+      }, {
+        "latitudeE7" : 386368047,
+        "longitudeE7" : -905541610,
+        "placeId" : "ChIJO0oms8TU2IcR5d50QjT2x8M",
+        "name" : "Daniel Robert CPA",
+        "locationConfidence" : 0.07625868
+      }, {
+        "latitudeE7" : 386381740,
+        "longitudeE7" : -905517629,
+        "placeId" : "ChIJCbkYVsTU2IcROgvdLTtgh94",
+        "name" : "I M Byung Gap",
+        "locationConfidence" : 0.03778052
+      }, {
+        "latitudeE7" : 386387820,
+        "longitudeE7" : -905532770,
+        "placeId" : "ChIJFerNJsXU2IcRLa4vRMJVtLc",
+        "name" : "Deck Cleaning and Sealing St. Louis County",
+        "locationConfidence" : 0.02705707
+      }, {
+        "latitudeE7" : 386364712,
+        "longitudeE7" : -905544104,
+        "placeId" : "ChIJZTp6UtvU2IcRl3G7aL7IfvI",
+        "name" : "Pratte Fixture Co",
+        "locationConfidence" : 0.024656633
+      }, {
+        "latitudeE7" : 386376659,
+        "longitudeE7" : -905554624,
+        "placeId" : "ChIJsXVdFtvU2IcRMwQN0bJEY30",
+        "name" : "R X Gems Inc",
+        "locationConfidence" : 0.012078281
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403181833989",
+        "endTimestampMs" : "1403182733124"
+      },
+      "distance" : 14470,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 328757667,
+          "lngE7" : -968981170
+        }, {
+          "latE7" : 327844085,
+          "lngE7" : -968006591
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403182733124",
+        "endTimestampMs" : "1403217395170"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 327844085,
+          "lngE7" : -968006591
+        }, {
+          "latE7" : 328131675,
+          "lngE7" : -968479843
+        }, {
+          "latE7" : 328455123,
+          "lngE7" : -968491897
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 328132095,
+          "lngE7" : -968480377,
+          "timestampMs" : "1403216334566",
+          "accuracyMeters" : 5
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 328481029,
+        "longitudeE7" : -968512063,
+        "placeId" : "ChIJ0RIjmDScToYRhiO7UFcadOo",
+        "address" : "8008 Herb Kelleher Way\nDallas, TX 75235\nUSA",
+        "name" : "Dallas Love Field Airport",
+        "locationConfidence" : 99.96126
+      },
+      "duration" : {
+        "startTimestampMs" : "1403217395170",
+        "endTimestampMs" : "1403231410357"
+      },
+      "centerLatE7" : 328504500,
+      "centerLngE7" : -968458702,
+      "visitConfidence" : 64,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 328557879,
+        "longitudeE7" : -968404690,
+        "placeId" : "ChIJDYy01NCdToYRd255o52_JgU",
+        "name" : "Love Field Guest House",
+        "locationConfidence" : 0.010075268
+      }, {
+        "latitudeE7" : 328554240,
+        "longitudeE7" : -968440950,
+        "placeId" : "ChIJe92QTNCdToYRki2mf0oQaG8",
+        "name" : "Templo El Redentor",
+        "locationConfidence" : 0.008418113
+      }, {
+        "latitudeE7" : 328558809,
+        "longitudeE7" : -968416720,
+        "placeId" : "ChIJxfy33dCdToYRCQnrLL4unEQ",
+        "name" : "Amelieart",
+        "locationConfidence" : 0.0048317504
+      }, {
+        "latitudeE7" : 328555446,
+        "longitudeE7" : -968446648,
+        "placeId" : "ChIJ07VKNNCdToYRjE3Ee4r3fdM",
+        "locationConfidence" : 0.0027217506
+      }, {
+        "latitudeE7" : 328580140,
+        "longitudeE7" : -968412500,
+        "placeId" : "ChIJXepCptCdToYR_doAthieuk8",
+        "name" : "Nine Twenty Press",
+        "locationConfidence" : 0.0025832579
+      }, {
+        "latitudeE7" : 328539290,
+        "longitudeE7" : -968432410,
+        "placeId" : "ChIJnw6Mn9GdToYROAU-Qv5dTVA",
+        "name" : "Realty Capital Financiers",
+        "locationConfidence" : 0.002460214
+      }, {
+        "latitudeE7" : 328577330,
+        "longitudeE7" : -968419840,
+        "placeId" : "ChIJN5QDmdCdToYRBJaDPzgbZW8",
+        "name" : "In Town Auto Group",
+        "locationConfidence" : 0.0014866219
+      }, {
+        "latitudeE7" : 328558430,
+        "longitudeE7" : -968422090,
+        "placeId" : "ChIJVwgV5NCdToYRwgkWBgpZ77g",
+        "name" : "AfallaStudios",
+        "locationConfidence" : 0.0011308867
+      }, {
+        "latitudeE7" : 328577640,
+        "longitudeE7" : -968403230,
+        "placeId" : "ChIJZan7UtedToYRVWVZmh9Eaj4",
+        "name" : "Steven Glazer",
+        "locationConfidence" : 8.286004E-4
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 328442823,
+          "lngE7" : -968496826,
+          "timestampMs" : "1403217395170",
+          "accuracyMeters" : 65
+        }, {
+          "latE7" : 328457611,
+          "lngE7" : -968483867,
+          "timestampMs" : "1403222902060",
+          "accuracyMeters" : 65
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403231410357",
+        "endTimestampMs" : "1403312007478"
+      },
+      "confidence" : "UNKNOWN_CONFIDENCE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403312007478",
+        "endTimestampMs" : "1403313565941"
+      },
+      "distance" : 780,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385810813,
+          "lngE7" : -904043807
+        }, {
+          "latE7" : 385850639,
+          "lngE7" : -903972625
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403338439039",
+        "endTimestampMs" : "1403359220646"
+      },
+      "distance" : 1911,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385848655,
+          "lngE7" : -903971786
+        }, {
+          "latE7" : 385833473,
+          "lngE7" : -904192581
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403359220646",
+        "endTimestampMs" : "1403365267223"
+      },
+      "distance" : 730,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385833473,
+          "lngE7" : -904192581
+        }, {
+          "latE7" : 385835418,
+          "lngE7" : -904108963
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403365267223",
+        "endTimestampMs" : "1403368322296"
+      },
+      "distance" : 5066,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385835418,
+          "lngE7" : -904108963
+        }, {
+          "latE7" : 385850639,
+          "lngE7" : -903972625
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403368322296",
+        "endTimestampMs" : "1403368820716"
+      },
+      "distance" : 841,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850639,
+          "lngE7" : -903972625
+        }, {
+          "latE7" : 385924034,
+          "lngE7" : -903966369
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403368820716",
+        "endTimestampMs" : "1403369834744"
+      },
+      "distance" : 6115,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385924034,
+          "lngE7" : -903966369
+        }, {
+          "latE7" : 386227035,
+          "lngE7" : -904561462
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403369834744",
+        "endTimestampMs" : "1403371069401"
+      },
+      "distance" : 513,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386227035,
+          "lngE7" : -904561462
+        }, {
+          "latE7" : 386265830,
+          "lngE7" : -904523391
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403371069401",
+        "endTimestampMs" : "1403375107858"
+      },
+      "distance" : 13882,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386265830,
+          "lngE7" : -904523391
+        }, {
+          "latE7" : 386006317,
+          "lngE7" : -903993377
+        }, {
+          "latE7" : 385660018,
+          "lngE7" : -903965225
+        }, {
+          "latE7" : 385850639,
+          "lngE7" : -903972702
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 386006126,
+          "lngE7" : -903993378,
+          "timestampMs" : "1403371670198",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385653419,
+          "lngE7" : -903965454,
+          "timestampMs" : "1403372774214",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403375107858",
+        "endTimestampMs" : "1403392664068"
+      },
+      "distance" : 1320,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850639,
+          "lngE7" : -903972702
+        }, {
+          "latE7" : 385842933,
+          "lngE7" : -904043426
+        }, {
+          "latE7" : 385813064,
+          "lngE7" : -904078216
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385844002,
+          "lngE7" : -904043350,
+          "timestampMs" : "1403387860555",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 98.7983
+      },
+      "duration" : {
+        "startTimestampMs" : "1403396689289",
+        "endTimestampMs" : "1403405972568"
+      },
+      "centerLatE7" : 385849100,
+      "centerLngE7" : -903972750,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385848804,
+        "longitudeE7" : -903972364,
+        "placeId" : "ChIJO8FlvT7M2IcRSPwcBD26mpY",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.1399765
+      }, {
+        "latitudeE7" : 385854590,
+        "longitudeE7" : -903986300,
+        "placeId" : "ChIJj7HxNTnM2IcRnFNalR6I-Qo",
+        "name" : "Gerald M Dewulf & Associates Ltd",
+        "locationConfidence" : 0.016656563
+      }, {
+        "latitudeE7" : 385837622,
+        "longitudeE7" : -903970870,
+        "placeId" : "ChIJazwEIjzM2IcRhEMlA3AAIJw",
+        "name" : "The Chrysalis on Woodlawn",
+        "locationConfidence" : 0.010196329
+      }, {
+        "latitudeE7" : 385838243,
+        "longitudeE7" : -903974128,
+        "placeId" : "ChIJ3_ilHjzM2IcRl6_oIZgYO74",
+        "name" : "Nia",
+        "locationConfidence" : 0.0067848647
+      }, {
+        "latitudeE7" : 385827132,
+        "longitudeE7" : -903979862,
+        "placeId" : "ChIJ2ZleaTzM2IcRJ_yc5_h_aUY",
+        "name" : "Kirkwood Baptist Church",
+        "locationConfidence" : 0.0065319263
+      }, {
+        "latitudeE7" : 385841980,
+        "longitudeE7" : -903978330,
+        "placeId" : "ChIJr1JtqD7M2IcRqNX3wAoaM5Q",
+        "name" : "Butterfly Life",
+        "locationConfidence" : 0.006357595
+      }, {
+        "latitudeE7" : 385845990,
+        "longitudeE7" : -903983650,
+        "placeId" : "ChIJVdjVrD7M2IcRhU3TMdRqB1U",
+        "name" : "4100 E Iliff LLC",
+        "locationConfidence" : 0.0060525667
+      }, {
+        "latitudeE7" : 385883784,
+        "longitudeE7" : -904009338,
+        "placeId" : "ChIJU_vYYzjM2IcRuK3K52uVFVk",
+        "locationConfidence" : 0.0023152928
+      }, {
+        "latitudeE7" : 385828119,
+        "longitudeE7" : -903987950,
+        "placeId" : "ChIJz6gt8zvM2IcRQKZl2o2jaho",
+        "name" : "Hope Unlimited",
+        "locationConfidence" : 0.0011976676
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403405972568",
+        "endTimestampMs" : "1403435638993"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385813026,
+          "lngE7" : -904077835
+        }, {
+          "latE7" : 385848503,
+          "lngE7" : -903971786
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403451989053",
+        "endTimestampMs" : "1403469222034"
+      },
+      "distance" : 8989,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850639,
+          "lngE7" : -903972549
+        }, {
+          "latE7" : 385852050,
+          "lngE7" : -904035644
+        }, {
+          "latE7" : 386188316,
+          "lngE7" : -904524917
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385851936,
+          "lngE7" : -904035645,
+          "timestampMs" : "1403462439560",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403469222034",
+        "endTimestampMs" : "1403481650891"
+      },
+      "distance" : 8595,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386188316,
+          "lngE7" : -904524917
+        }, {
+          "latE7" : 385848579,
+          "lngE7" : -903971786
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403481650891",
+        "endTimestampMs" : "1403555155648"
+      },
+      "distance" : 19304,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385848579,
+          "lngE7" : -903971786
+        }, {
+          "latE7" : 386254577,
+          "lngE7" : -901924362
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403555155856",
+        "endTimestampMs" : "1403577380401"
+      },
+      "distance" : 30948,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386261253,
+          "lngE7" : -901929626
+        }, {
+          "latE7" : 385965614,
+          "lngE7" : -903209609
+        }, {
+          "latE7" : 385831680,
+          "lngE7" : -903967056
+        }, {
+          "latE7" : 386114501,
+          "lngE7" : -904534301
+        }, {
+          "latE7" : 385848579,
+          "lngE7" : -903971786
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385965538,
+          "lngE7" : -903209534,
+          "timestampMs" : "1403557511594",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385832024,
+          "lngE7" : -903966064,
+          "timestampMs" : "1403557915258",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 386119080,
+          "lngE7" : -904534378,
+          "timestampMs" : "1403574749675",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403629010419",
+        "endTimestampMs" : "1403650407247"
+      },
+      "distance" : 627,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850639,
+          "lngE7" : -903972702
+        }, {
+          "latE7" : 385794105,
+          "lngE7" : -903972854
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403650407247",
+        "endTimestampMs" : "1403683744691"
+      },
+      "distance" : 11327,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385794105,
+          "lngE7" : -903972854
+        }, {
+          "latE7" : 385579109,
+          "lngE7" : -904541473
+        }, {
+          "latE7" : 385846824,
+          "lngE7" : -903971786
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385579071,
+          "lngE7" : -904539261,
+          "timestampMs" : "1403651477244",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403683744691",
+        "endTimestampMs" : "1403739958308"
+      },
+      "distance" : 11077,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385846824,
+          "lngE7" : -903971786
+        }, {
+          "latE7" : 386522560,
+          "lngE7" : -903215255
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403739958308",
+        "endTimestampMs" : "1403740860444"
+      },
+      "distance" : 10232,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386521835,
+          "lngE7" : -903214874
+        }, {
+          "latE7" : 385850715,
+          "lngE7" : -903976669
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385849129,
+        "longitudeE7" : -903973117,
+        "placeId" : "ChIJzd9quz7M2IcRWDKcL5uY-UU",
+        "address" : "349 N Woodlawn Ave\nKirkwood, MO 63122\nUSA",
+        "name" : "349 N Woodlawn Ave",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 98.644684
+      },
+      "duration" : {
+        "startTimestampMs" : "1403740860444",
+        "endTimestampMs" : "1403743512327"
+      },
+      "centerLatE7" : 385848450,
+      "centerLngE7" : -903974200,
+      "visitConfidence" : 75,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385848804,
+        "longitudeE7" : -903972364,
+        "placeId" : "ChIJO8FlvT7M2IcRSPwcBD26mpY",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.3090833
+      }, {
+        "latitudeE7" : 385837622,
+        "longitudeE7" : -903970870,
+        "placeId" : "ChIJazwEIjzM2IcRhEMlA3AAIJw",
+        "name" : "The Chrysalis on Woodlawn",
+        "locationConfidence" : 0.0098275505
+      }, {
+        "latitudeE7" : 385854590,
+        "longitudeE7" : -903986300,
+        "placeId" : "ChIJj7HxNTnM2IcRnFNalR6I-Qo",
+        "name" : "Gerald M Dewulf & Associates Ltd",
+        "locationConfidence" : 0.0074469843
+      }, {
+        "latitudeE7" : 385827132,
+        "longitudeE7" : -903979862,
+        "placeId" : "ChIJ2ZleaTzM2IcRJ_yc5_h_aUY",
+        "name" : "Kirkwood Baptist Church",
+        "locationConfidence" : 0.0066786893
+      }, {
+        "latitudeE7" : 385838243,
+        "longitudeE7" : -903974128,
+        "placeId" : "ChIJ3_ilHjzM2IcRl6_oIZgYO74",
+        "name" : "Nia",
+        "locationConfidence" : 0.0051571075
+      }, {
+        "latitudeE7" : 385841980,
+        "longitudeE7" : -903978330,
+        "placeId" : "ChIJr1JtqD7M2IcRqNX3wAoaM5Q",
+        "name" : "Butterfly Life",
+        "locationConfidence" : 0.0049827737
+      }, {
+        "latitudeE7" : 385845990,
+        "longitudeE7" : -903983650,
+        "placeId" : "ChIJVdjVrD7M2IcRhU3TMdRqB1U",
+        "name" : "4100 E Iliff LLC",
+        "locationConfidence" : 0.004865197
+      }, {
+        "latitudeE7" : 385832430,
+        "longitudeE7" : -903973830,
+        "placeId" : "ChIJRbrxFjzM2IcRikc-pchm7hk",
+        "name" : "Adams Ave @ Woodlawn Ave WB",
+        "locationConfidence" : 0.0016781042
+      }, {
+        "latitudeE7" : 385828119,
+        "longitudeE7" : -903987950,
+        "placeId" : "ChIJz6gt8zvM2IcRQKZl2o2jaho",
+        "name" : "Hope Unlimited",
+        "locationConfidence" : 0.0010674298
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403743512327",
+        "endTimestampMs" : "1403786407807"
+      },
+      "distance" : 6112,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385846328,
+          "lngE7" : -903971786
+        }, {
+          "latE7" : 386095123,
+          "lngE7" : -904519119
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1403786407807",
+        "endTimestampMs" : "1403816726634"
+      },
+      "distance" : 6588,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386095123,
+          "lngE7" : -904519119
+        }, {
+          "latE7" : 386114501,
+          "lngE7" : -904537277
+        }, {
+          "latE7" : 385852661,
+          "lngE7" : -904039688
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 386121178,
+          "lngE7" : -904536972,
+          "timestampMs" : "1403789560587",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386289266,
+        "longitudeE7" : -902707193,
+        "placeId" : "ChIJ9fNmyhm12IcRbm9DnD8v5f4",
+        "address" : "5050 Oakland Ave\nSt. Louis, MO 63110\nUSA",
+        "name" : "Omnimax Theater",
+        "locationConfidence" : 40.475002
+      },
+      "duration" : {
+        "startTimestampMs" : "1403818728576",
+        "endTimestampMs" : "1403822480837"
+      },
+      "centerLatE7" : 386288550,
+      "centerLngE7" : -902701400,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386287059,
+        "longitudeE7" : -902706517,
+        "placeId" : "ChIJ9fNmyhm12IcRL9IZ3SoDLUs",
+        "name" : "Saint Louis Science Center",
+        "locationConfidence" : 39.93187
+      }, {
+        "latitudeE7" : 386382974,
+        "longitudeE7" : -902842393,
+        "placeId" : "ChIJycR4kUa12IcRqpSybQLFJ50",
+        "name" : "Forest Park",
+        "locationConfidence" : 6.7360234
+      }, {
+        "latitudeE7" : 386271126,
+        "longitudeE7" : -902684597,
+        "placeId" : "ChIJu-4GFxm12IcR6SRKBhOFUW0",
+        "name" : "St. Louis University High School",
+        "locationConfidence" : 6.190013
+      }, {
+        "latitudeE7" : 386286629,
+        "longitudeE7" : -902705766,
+        "placeId" : "ChIJ9fNmyhm12IcRpmfe3aBvC3U",
+        "name" : "Academy of Science of St. Louis",
+        "locationConfidence" : 6.0369124
+      }, {
+        "latitudeE7" : 386282880,
+        "longitudeE7" : -902680320,
+        "placeId" : "ChIJu-4GFxm12IcR32TfFSbrvWk",
+        "name" : "St. Louis University High School",
+        "locationConfidence" : 0.15117903
+      }, {
+        "latitudeE7" : 386289226,
+        "longitudeE7" : -902707153,
+        "placeId" : "ChIJ9fNmyhm12IcRerCzdEU7Lts",
+        "name" : "Build-A-Bear Workshop",
+        "locationConfidence" : 0.11917518
+      }, {
+        "latitudeE7" : 386288600,
+        "longitudeE7" : -902734300,
+        "placeId" : "ChIJRcQyVBa12IcRkLN6Jv71SNA",
+        "name" : "Paraquad",
+        "locationConfidence" : 0.081482
+      }, {
+        "latitudeE7" : 386312553,
+        "longitudeE7" : -902708973,
+        "placeId" : "ChIJ12nZBRi12IcReEzrTkAFPK8",
+        "name" : "James S. McDonnell Planetarium",
+        "locationConfidence" : 0.06829309
+      }, {
+        "latitudeE7" : 386288139,
+        "longitudeE7" : -902721174,
+        "placeId" : "ChIJT5Hh_Ri12IcRLCGOwtAYbpc",
+        "name" : "Compton/Drew ILC Middle School",
+        "locationConfidence" : 0.06451449
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

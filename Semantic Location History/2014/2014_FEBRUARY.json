@@ -1,0 +1,205 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1392997573845",
+        "endTimestampMs" : "1393087498568"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386451310,
+        "longitudeE7" : -902858584,
+        "placeId" : "ChIJB2iU0U612IcRZrLDU4lDP-w",
+        "address" : "5700 Lindell Blvd\nSt. Louis, MO 63112\nUSA",
+        "name" : "Missouri History Museum",
+        "locationConfidence" : 32.744156
+      },
+      "duration" : {
+        "startTimestampMs" : "1393087498568",
+        "endTimestampMs" : "1393091122328"
+      },
+      "centerLatE7" : 386454050,
+      "centerLngE7" : -902854600,
+      "visitConfidence" : 56,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386382974,
+        "longitudeE7" : -902842393,
+        "placeId" : "ChIJycR4kUa12IcRqpSybQLFJ50",
+        "name" : "Forest Park",
+        "locationConfidence" : 20.65237
+      }, {
+        "latitudeE7" : 386461874,
+        "longitudeE7" : -902856858,
+        "placeId" : "ChIJB2iU0U612IcRjE4-uhlEYS8",
+        "name" : "Missouri History Museum Restaurant",
+        "locationConfidence" : 12.941165
+      }, {
+        "latitudeE7" : 386449183,
+        "longitudeE7" : -902860144,
+        "placeId" : "ChIJMWQm1k612IcRX3l3O1O5_ko",
+        "name" : "Bixby's",
+        "locationConfidence" : 8.380047
+      }, {
+        "latitudeE7" : 386449022,
+        "longitudeE7" : -902858113,
+        "placeId" : "ChIJv5n7nqjK2IcRZW8pvr8sZw8",
+        "name" : "Missouri History Museum Museum Shop",
+        "locationConfidence" : 8.202653
+      }, {
+        "latitudeE7" : 386454318,
+        "longitudeE7" : -902858072,
+        "placeId" : "ChIJi-aW0U612IcRNDrUSS-rfWQ",
+        "name" : "Association of Midwest Museums",
+        "locationConfidence" : 8.200088
+      }, {
+        "latitudeE7" : 386451469,
+        "longitudeE7" : -902857893,
+        "placeId" : "ChIJx2tp0U612IcR70bbVKOtNQ4",
+        "name" : "Jefferson Memorial",
+        "locationConfidence" : 3.6059732
+      }, {
+        "latitudeE7" : 386434291,
+        "longitudeE7" : -902984037,
+        "placeId" : "ChIJrWwjtFC12IcRHr3-e-iBwXI",
+        "name" : "Norman K. Probstein Community Golf Course",
+        "locationConfidence" : 3.097065
+      }, {
+        "latitudeE7" : 386477913,
+        "longitudeE7" : -902846397,
+        "placeId" : "ChIJKSkX5Eu12IcRRRR839uO-PI",
+        "name" : "Forest Park-DeBaliviere",
+        "locationConfidence" : 0.9744737
+      }, {
+        "latitudeE7" : 386440438,
+        "longitudeE7" : -902834565,
+        "placeId" : "ChIJScu38Ei12IcR1ksbcxzCP5k",
+        "name" : "Dennis and Judith Jones Visitor and Education Center",
+        "locationConfidence" : 0.4274154
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 386487895,
+        "longitudeE7" : -903107962,
+        "placeId" : "ChIJzw-cD0a12IcRaXY8GIGU-pQ",
+        "address" : "1 Brookings Dr\nSt. Louis, MO 63130\nUSA",
+        "name" : "Washington University in St. Louis",
+        "locationConfidence" : 72.20892
+      },
+      "duration" : {
+        "startTimestampMs" : "1393114166649",
+        "endTimestampMs" : "1393122276409"
+      },
+      "centerLatE7" : 386461500,
+      "centerLngE7" : -903057250,
+      "visitConfidence" : 72,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 386471435,
+        "longitudeE7" : -903056751,
+        "placeId" : "ChIJ8-Lqnq7K2IcRbtRjH2-z_nQ",
+        "name" : "George Warren Brown School of Social Work",
+        "locationConfidence" : 2.1593947
+      }, {
+        "latitudeE7" : 386468712,
+        "longitudeE7" : -903059259,
+        "placeId" : "ChIJqacam67K2IcRJBgWjnd6mZs",
+        "name" : "Goldfarb Hall",
+        "locationConfidence" : 2.086366
+      }, {
+        "latitudeE7" : 386460423,
+        "longitudeE7" : -903058098,
+        "placeId" : "ChIJERM_667K2IcRB_jxTRfzxwA",
+        "name" : "Catholic Student Center",
+        "locationConfidence" : 1.7020947
+      }, {
+        "latitudeE7" : 386471454,
+        "longitudeE7" : -903056735,
+        "placeId" : "ChIJrbq_n67K2IcRO9x0YsofJQA",
+        "name" : "Brown Hall",
+        "locationConfidence" : 1.6427968
+      }, {
+        "latitudeE7" : 386471423,
+        "longitudeE7" : -903056735,
+        "placeId" : "ChIJIQOLCbPK2IcRyPTfxw_aJx0",
+        "name" : "Brown School at Washington University in St. Louis",
+        "locationConfidence" : 1.1141813
+      }, {
+        "latitudeE7" : 386471715,
+        "longitudeE7" : -903066278,
+        "placeId" : "ChIJT84yfq7K2IcRkwfm2PjpLGE",
+        "name" : "McDonnell Hall",
+        "locationConfidence" : 0.99581796
+      }, {
+        "latitudeE7" : 386470175,
+        "longitudeE7" : -903075041,
+        "placeId" : "ChIJLabLdq7K2IcRV0fKxsXKfuQ",
+        "name" : "Psychology Building",
+        "locationConfidence" : 0.8487989
+      }, {
+        "latitudeE7" : 386471711,
+        "longitudeE7" : -903066273,
+        "placeId" : "ChIJP7WHgK7K2IcRFhfXF4_Cnio",
+        "name" : "Environmental Studies",
+        "locationConfidence" : 0.78302383
+      }, {
+        "latitudeE7" : 386481146,
+        "longitudeE7" : -903055987,
+        "placeId" : "ChIJYV6VPKzK2IcRVtPoLM0FhXI",
+        "name" : "Brookings Quadrangle",
+        "locationConfidence" : 0.6561189
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1393122276409",
+        "endTimestampMs" : "1393124104519"
+      },
+      "distance" : 10614,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 386464271,
+          "lngE7" : -903057556
+        }, {
+          "latE7" : 385849723,
+          "lngE7" : -903971710
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}

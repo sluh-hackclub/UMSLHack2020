@@ -1,0 +1,120 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 385771062,
+        "longitudeE7" : -904068539,
+        "placeId" : "ChIJseIAbC7M2IcRLfPK5UUGsnc",
+        "address" : "343 S Kirkwood Rd #5\nSaint Louis, MO 63122\nUSA",
+        "name" : "United States Postal Service",
+        "locationConfidence" : 28.491253
+      },
+      "duration" : {
+        "startTimestampMs" : "1411225088843",
+        "endTimestampMs" : "1411225774777"
+      },
+      "centerLatE7" : 385774843,
+      "centerLngE7" : -904065357,
+      "visitConfidence" : 72,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 385778367,
+        "longitudeE7" : -904069900,
+        "placeId" : "ChIJb5ZXIS7M2IcRibgUx7IzqH8",
+        "name" : "PNC Bank",
+        "locationConfidence" : 19.977869
+      }, {
+        "latitudeE7" : 385775161,
+        "longitudeE7" : -904068616,
+        "placeId" : "ChIJEdZqay7M2IcRMXYOvEcJcGo",
+        "name" : "Starbucks",
+        "locationConfidence" : 10.454077
+      }, {
+        "latitudeE7" : 385772528,
+        "longitudeE7" : -904069255,
+        "placeId" : "ChIJO5bGbS7M2IcRhL3GVGKfDdQ",
+        "name" : "Smallcakes: A Cupcakery",
+        "locationConfidence" : 4.0658607
+      }, {
+        "latitudeE7" : 385778815,
+        "longitudeE7" : -904070469,
+        "placeId" : "ChIJb5ZXIS7M2IcR4stlDmI-p-c",
+        "name" : "Anheuser Busch Beverage",
+        "locationConfidence" : 3.0234344
+      }, {
+        "latitudeE7" : 385770955,
+        "longitudeE7" : -904060218,
+        "placeId" : "ChIJeVWlQy7M2IcRBkF3fVtUkCI",
+        "name" : "McDonald's",
+        "locationConfidence" : 2.826304
+      }, {
+        "latitudeE7" : 385783096,
+        "longitudeE7" : -904068023,
+        "placeId" : "ChIJL9TMGy7M2IcRPa3Ooow7Neg",
+        "name" : "Andy's Frozen Custard",
+        "locationConfidence" : 1.680172
+      }, {
+        "latitudeE7" : 385766641,
+        "longitudeE7" : -904068772,
+        "placeId" : "ChIJkUz9Zi7M2IcRzhDShuJT6Vg",
+        "name" : "Taco Bell",
+        "locationConfidence" : 1.4569676
+      }, {
+        "latitudeE7" : 385779498,
+        "longitudeE7" : -904070688,
+        "placeId" : "ChIJb5ZXIS7M2IcRz8EMLB8tJ_0",
+        "name" : "Your Diamond Source",
+        "locationConfidence" : 0.74612725
+      }, {
+        "latitudeE7" : 385772030,
+        "longitudeE7" : -904068478,
+        "placeId" : "ChIJO5bGbS7M2IcROsyYQrZBOXs",
+        "name" : "Hair Saloon For Men - Kirkwood",
+        "locationConfidence" : 0.7247844
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1411225774777",
+        "endTimestampMs" : "1411238457184"
+      },
+      "distance" : 12781,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385773315,
+          "lngE7" : -904064636
+        }, {
+          "latE7" : 385660018,
+          "lngE7" : -903965911
+        }, {
+          "latE7" : 386016311,
+          "lngE7" : -902886352
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385658073,
+          "lngE7" : -903965988,
+          "timestampMs" : "1411229787256",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}
