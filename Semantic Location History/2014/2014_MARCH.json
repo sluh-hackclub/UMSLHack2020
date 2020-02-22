@@ -1,0 +1,1196 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 385886164,
+        "longitudeE7" : -903873772
+      },
+      "endLocation" : {
+        "latitudeE7" : 385849928,
+        "longitudeE7" : -903976285
+      },
+      "duration" : {
+        "startTimestampMs" : "1394582956191",
+        "endTimestampMs" : "1394583116921"
+      },
+      "distance" : 1133,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385885810,
+          "lngE7" : -903873748
+        }, {
+          "latE7" : 385850715,
+          "lngE7" : -903976287
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394583116921",
+        "endTimestampMs" : "1394620839351"
+      },
+      "distance" : 487,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850715,
+          "lngE7" : -903976287
+        }, {
+          "latE7" : 385809860,
+          "lngE7" : -904001159
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394620839351",
+        "endTimestampMs" : "1394626951095"
+      },
+      "distance" : 2197,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385809860,
+          "lngE7" : -904001159
+        }, {
+          "latE7" : 385765075,
+          "lngE7" : -904041595
+        }, {
+          "latE7" : 385844383,
+          "lngE7" : -904100952
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385765076,
+          "lngE7" : -904040909,
+          "timestampMs" : "1394621138612",
+          "accuracyMeters" : 5
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394626951095",
+        "endTimestampMs" : "1394716028564"
+      },
+      "distance" : 7649,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394716028564",
+        "endTimestampMs" : "1394920960423"
+      },
+      "distance" : 14795,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394920960423",
+        "endTimestampMs" : "1394975551350"
+      },
+      "distance" : 581,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385819473,
+          "lngE7" : -904083328
+        }, {
+          "latE7" : 385869064,
+          "lngE7" : -904062728
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394975551350",
+        "endTimestampMs" : "1394975939948"
+      },
+      "distance" : 5359,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385869064,
+          "lngE7" : -904062728
+        }, {
+          "latE7" : 386350898,
+          "lngE7" : -904056243
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 386350895,
+        "longitudeE7" : -904056625
+      },
+      "endLocation" : {
+        "latitudeE7" : 279822138,
+        "longitudeE7" : -825356963
+      },
+      "duration" : {
+        "startTimestampMs" : "1394975939948",
+        "endTimestampMs" : "1394992233210"
+      },
+      "distance" : 1390762,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 387317154,
+          "lngE7" : -903382795,
+          "timestampMs" : "1394976645874",
+          "accuracyMeters" : 116
+        }, {
+          "latE7" : 387344832,
+          "lngE7" : -903549046,
+          "timestampMs" : "1394976705923",
+          "accuracyMeters" : 165
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394992233210",
+        "endTimestampMs" : "1394995357995"
+      },
+      "distance" : 84565,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 279822711,
+          "lngE7" : -825357208
+        }, {
+          "latE7" : 273901596,
+          "lngE7" : -824502563
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394995357995",
+        "endTimestampMs" : "1394999087861"
+      },
+      "distance" : 530,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 273902168,
+          "lngE7" : -824506988
+        }, {
+          "latE7" : 273885822,
+          "lngE7" : -824552917
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1394999087861",
+        "endTimestampMs" : "1394999387403"
+      },
+      "distance" : 2248,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 273885822,
+          "lngE7" : -824552917
+        }, {
+          "latE7" : 273940467,
+          "lngE7" : -824345779
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395005135146",
+        "endTimestampMs" : "1395085673537"
+      },
+      "distance" : 166427,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 273944206,
+          "lngE7" : -824345321
+        }, {
+          "latE7" : 270848503,
+          "lngE7" : -822088928
+        }, {
+          "latE7" : 270131835,
+          "lngE7" : -821469802
+        }, {
+          "latE7" : 264080543,
+          "lngE7" : -818371200
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 270850239,
+          "lngE7" : -822088547,
+          "timestampMs" : "1395008415371",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 270132294,
+          "lngE7" : -821471329,
+          "timestampMs" : "1395010318533",
+          "accuracyMeters" : 5
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 263982655,
+        "longitudeE7" : -818375308,
+        "placeId" : "ChIJdXrfE5YX24gRGDeLXzfUPMg",
+        "address" : "5001 Coconut Rd\nBonita Springs, FL 34134\nUSA",
+        "name" : "Hyatt Regency Coconut Point Resort And Spa",
+        "locationConfidence" : 64.96066
+      },
+      "duration" : {
+        "startTimestampMs" : "1395346292010",
+        "endTimestampMs" : "1395350655055"
+      },
+      "centerLatE7" : 263990200,
+      "centerLngE7" : -818408329,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 264114282,
+        "longitudeE7" : -818552196,
+        "placeId" : "ChIJy4Z-qHs924gR7GSgB_bY6wk",
+        "name" : "Estero Bay Aquatic Preserve",
+        "locationConfidence" : 19.060835
+      }, {
+        "latitudeE7" : 263992063,
+        "longitudeE7" : -818393499,
+        "placeId" : "ChIJ8zmABL4X24gR5-lWTfTr0Ls",
+        "name" : "WCI Raptor Bay Golf Maintenance",
+        "locationConfidence" : 6.2675414
+      }, {
+        "latitudeE7" : 263980214,
+        "longitudeE7" : -818375685,
+        "placeId" : "ChIJdXrfE5YX24gRhU2Yj2YtO3w",
+        "name" : "Tarpon Bay",
+        "locationConfidence" : 5.491147
+      }, {
+        "latitudeE7" : 263982575,
+        "longitudeE7" : -818376248,
+        "placeId" : "ChIJFXLvE5YX24gRplccRBGtiFI",
+        "name" : "Stillwater Spa at the Hyatt Regency Coconut Point Resort",
+        "locationConfidence" : 1.2344613
+      }, {
+        "latitudeE7" : 263977362,
+        "longitudeE7" : -818377702,
+        "placeId" : "ChIJIRDPFpYX24gRG09OMGs9mIY",
+        "name" : "Germain Arena",
+        "locationConfidence" : 0.52081233
+      }, {
+        "latitudeE7" : 264008415,
+        "longitudeE7" : -818399203,
+        "placeId" : "ChIJmZMgab4X24gRGXgA6ytcZ20",
+        "name" : "Hickory Bait & Tackle",
+        "locationConfidence" : 0.4713597
+      }, {
+        "latitudeE7" : 263990672,
+        "longitudeE7" : -818390737,
+        "placeId" : "ChIJ-Us0Ab4X24gR5QW5j0Fu9M0",
+        "name" : "Accurate Insurance Agency",
+        "locationConfidence" : 0.46913186
+      }, {
+        "latitudeE7" : 262933521,
+        "longitudeE7" : -818011157,
+        "placeId" : "ChIJdXrfE5YX24gRvtddrITDYHU",
+        "name" : "Hertz Rent A Car",
+        "locationConfidence" : 0.39941576
+      }, {
+        "latitudeE7" : 263975918,
+        "longitudeE7" : -818376875,
+        "placeId" : "ChIJdXrfE5YX24gRIZdzWUn82Js",
+        "name" : "All Water Excursions",
+        "locationConfidence" : 0.33787525
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395355728143",
+        "endTimestampMs" : "1395360571687"
+      },
+      "distance" : 1000,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 264075603,
+          "lngE7" : -818368530
+        }, {
+          "latE7" : 263989677,
+          "lngE7" : -818361892
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395360571687",
+        "endTimestampMs" : "1395433262120"
+      },
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 263989677,
+          "lngE7" : -818361892
+        }, {
+          "latE7" : 263979358,
+          "lngE7" : -818108978
+        }, {
+          "latE7" : 264082069,
+          "lngE7" : -818384933
+        }, {
+          "latE7" : 264078941,
+          "lngE7" : -818370742
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 263978901,
+          "lngE7" : -818110352,
+          "timestampMs" : "1395404298074",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 264081993,
+          "lngE7" : -818384171,
+          "timestampMs" : "1395405625100",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 264114282,
+        "longitudeE7" : -818552196,
+        "placeId" : "ChIJy4Z-qHs924gR7GSgB_bY6wk",
+        "address" : "Fort Myers Beach, FL 33931\nUSA",
+        "name" : "Estero Bay Aquatic Preserve",
+        "locationConfidence" : 83.525955
+      },
+      "duration" : {
+        "startTimestampMs" : "1395433262120",
+        "endTimestampMs" : "1395440004231"
+      },
+      "centerLatE7" : 264001910,
+      "centerLngE7" : -818422590,
+      "visitConfidence" : 77,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 263992063,
+        "longitudeE7" : -818393499,
+        "placeId" : "ChIJ8zmABL4X24gR5-lWTfTr0Ls",
+        "name" : "WCI Raptor Bay Golf Maintenance",
+        "locationConfidence" : 9.341581
+      }, {
+        "latitudeE7" : 264008415,
+        "longitudeE7" : -818399203,
+        "placeId" : "ChIJmZMgab4X24gRGXgA6ytcZ20",
+        "name" : "Hickory Bait & Tackle",
+        "locationConfidence" : 1.6735657
+      }, {
+        "latitudeE7" : 263982575,
+        "longitudeE7" : -818376248,
+        "placeId" : "ChIJFXLvE5YX24gRplccRBGtiFI",
+        "name" : "Stillwater Spa at the Hyatt Regency Coconut Point Resort",
+        "locationConfidence" : 1.3147411
+      }, {
+        "latitudeE7" : 264055752,
+        "longitudeE7" : -818576842,
+        "placeId" : "ChIJ952XgdwX24gRxH5FHOQrQnI",
+        "locationConfidence" : 0.9616242
+      }, {
+        "latitudeE7" : 264077229,
+        "longitudeE7" : -818759838,
+        "placeId" : "ChIJd3U76WU924gRjtBXJYS_Hrg",
+        "locationConfidence" : 0.9607458
+      }, {
+        "latitudeE7" : 263977362,
+        "longitudeE7" : -818377702,
+        "placeId" : "ChIJIRDPFpYX24gRG09OMGs9mIY",
+        "name" : "Germain Arena",
+        "locationConfidence" : 0.7076149
+      }, {
+        "latitudeE7" : 262933521,
+        "longitudeE7" : -818011157,
+        "placeId" : "ChIJdXrfE5YX24gRvtddrITDYHU",
+        "name" : "Hertz Rent A Car",
+        "locationConfidence" : 0.6503788
+      }, {
+        "latitudeE7" : 263975918,
+        "longitudeE7" : -818376875,
+        "placeId" : "ChIJdXrfE5YX24gRIZdzWUn82Js",
+        "name" : "All Water Excursions",
+        "locationConfidence" : 0.3674344
+      }, {
+        "latitudeE7" : 263976274,
+        "longitudeE7" : -818378730,
+        "placeId" : "ChIJdXrfE5YX24gRY6utM3tUTzM",
+        "name" : "Naples Transportation & Tours",
+        "locationConfidence" : 0.25446564
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395446657817",
+        "endTimestampMs" : "1395485664809"
+      },
+      "distance" : 516,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 264075660,
+          "lngE7" : -818368606
+        }, {
+          "latE7" : 264034919,
+          "lngE7" : -818369827
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395485664809",
+        "endTimestampMs" : "1395579703666"
+      },
+      "distance" : 250256,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395579703666",
+        "endTimestampMs" : "1395598165353"
+      },
+      "distance" : 1387429,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395598165353",
+        "endTimestampMs" : "1395703156412"
+      },
+      "distance" : 10669,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395703156412",
+        "endTimestampMs" : "1395777810923"
+      },
+      "distance" : 8575,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385850677,
+          "lngE7" : -903974685
+        }, {
+          "latE7" : 385810050,
+          "lngE7" : -904009170
+        }, {
+          "latE7" : 385742073,
+          "lngE7" : -904061355
+        }, {
+          "latE7" : 385813140,
+          "lngE7" : -904082183
+        }, {
+          "latE7" : 385823249,
+          "lngE7" : -904089660
+        }, {
+          "latE7" : 385823631,
+          "lngE7" : -904109115
+        }, {
+          "latE7" : 385970878,
+          "lngE7" : -904158859
+        }, {
+          "latE7" : 385957984,
+          "lngE7" : -904052429
+        }, {
+          "latE7" : 385900917,
+          "lngE7" : -904039077
+        }, {
+          "latE7" : 385878791,
+          "lngE7" : -904039230
+        }, {
+          "latE7" : 385851058,
+          "lngE7" : -903988647
+        }, {
+          "latE7" : 385842781,
+          "lngE7" : -904037628
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 385811615,
+          "lngE7" : -904009094,
+          "timestampMs" : "1395744578729",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385742989,
+          "lngE7" : -904061356,
+          "timestampMs" : "1395744939599",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385811539,
+          "lngE7" : -904082184,
+          "timestampMs" : "1395745179667",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385822716,
+          "lngE7" : -904089661,
+          "timestampMs" : "1395745239685",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385824776,
+          "lngE7" : -904108505,
+          "timestampMs" : "1395745299700",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385970879,
+          "lngE7" : -904157867,
+          "timestampMs" : "1395745900665",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385957451,
+          "lngE7" : -904052429,
+          "timestampMs" : "1395746201452",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385900917,
+          "lngE7" : -904039307,
+          "timestampMs" : "1395746441727",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385878792,
+          "lngE7" : -904039154,
+          "timestampMs" : "1395746501746",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385850105,
+          "lngE7" : -903988724,
+          "timestampMs" : "1395746681552",
+          "accuracyMeters" : 5
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395777810923",
+        "endTimestampMs" : "1395845414399"
+      },
+      "distance" : 50275,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385842781,
+          "lngE7" : -904037628
+        }, {
+          "latE7" : 386314010,
+          "lngE7" : -902474060
+        }, {
+          "latE7" : 385667724,
+          "lngE7" : -904066848
+        }, {
+          "latE7" : 385743255,
+          "lngE7" : -904157028
+        }, {
+          "latE7" : 385765151,
+          "lngE7" : -903913955
+        }, {
+          "latE7" : 385959396,
+          "lngE7" : -903969039
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 386313858,
+          "lngE7" : -902476273,
+          "timestampMs" : "1395780094200",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385668640,
+          "lngE7" : -904065170,
+          "timestampMs" : "1395785783595",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 385743446,
+          "lngE7" : -904159546,
+          "timestampMs" : "1395785963642",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 385765190,
+          "lngE7" : -903916016,
+          "timestampMs" : "1395791962620",
+          "accuracyMeters" : 65
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395845414399",
+        "endTimestampMs" : "1395858874721"
+      },
+      "distance" : 639,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 385959396,
+          "lngE7" : -903969039
+        }, {
+          "latE7" : 385901832,
+          "lngE7" : -903970336
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1395858874721",
+        "endTimestampMs" : "1396233923128"
+      },
+      "distance" : 1558343,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1396233923128",
+        "endTimestampMs" : "1396269678603"
+      },
+      "distance" : 521,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 402853775,
+          "lngE7" : -740789489
+        }, {
+          "latE7" : 402859954,
+          "lngE7" : -740858840
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1396269678603",
+        "endTimestampMs" : "1396270337926"
+      },
+      "distance" : 14217,
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 402844314,
+          "lngE7" : -740848999
+        }, {
+          "latE7" : 403966712,
+          "lngE7" : -741388626
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1396298737453",
+        "endTimestampMs" : "1396305655097"
+      },
+      "distance" : 41115,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 403974113,
+          "lngE7" : -741385650
+        }, {
+          "latE7" : 403023300,
+          "lngE7" : -739783020
+        }, {
+          "latE7" : 402988739,
+          "lngE7" : -739791030
+        }, {
+          "latE7" : 402920265,
+          "lngE7" : -739807510
+        }, {
+          "latE7" : 402902641,
+          "lngE7" : -739811019
+        }, {
+          "latE7" : 402851142,
+          "lngE7" : -739820327
+        }, {
+          "latE7" : 402961044,
+          "lngE7" : -739797439
+        }, {
+          "latE7" : 403111763,
+          "lngE7" : -739770278
+        }, {
+          "latE7" : 403125724,
+          "lngE7" : -739784317
+        }, {
+          "latE7" : 403172340,
+          "lngE7" : -739773864
+        }, {
+          "latE7" : 403198890,
+          "lngE7" : -739765930
+        }, {
+          "latE7" : 402852897,
+          "lngE7" : -740784072
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 403021393,
+          "lngE7" : -739781647,
+          "timestampMs" : "1396302009678",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 402988739,
+          "lngE7" : -739791031,
+          "timestampMs" : "1396302129716",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 402920189,
+          "lngE7" : -739806976,
+          "timestampMs" : "1396302369928",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 402903175,
+          "lngE7" : -739810867,
+          "timestampMs" : "1396302429947",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 402851105,
+          "lngE7" : -739820099,
+          "timestampMs" : "1396302610811",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 402960930,
+          "lngE7" : -739796677,
+          "timestampMs" : "1396303031984",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 403112144,
+          "lngE7" : -739769745,
+          "timestampMs" : "1396303573654",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 403125381,
+          "lngE7" : -739784927,
+          "timestampMs" : "1396303633674",
+          "accuracyMeters" : 5
+        }, {
+          "latE7" : 403169823,
+          "lngE7" : -739768600,
+          "timestampMs" : "1396303813977",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 403198929,
+          "lngE7" : -739765091,
+          "timestampMs" : "1396303934017",
+          "accuracyMeters" : 10
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "duration" : {
+        "startTimestampMs" : "1396305655097",
+        "endTimestampMs" : "1396358540367"
+      },
+      "distance" : 528,
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.0
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 402852897,
+          "lngE7" : -740784072
+        }, {
+          "latE7" : 402861976,
+          "lngE7" : -740845260
+        } ]
+      },
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}
