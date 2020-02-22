@@ -281,11 +281,12 @@ function LocationHistoryPageController($scope, L, passLocation, $location) {
       .setLatLng(e.latlng)
       .setContent("Opening page to add new contacts...")
       .openOn(mymap);
-    console.log(e.latlng);
 
     setTimeout(function() {
       passLocation.setLocation(e.latlng);
-      $location.path("/mapcontacts");
+      console.log("redirecting");
+      $location.path("/mapcontacts").replace();
+      $scope.$apply();
     }, 2000);
   }
 
