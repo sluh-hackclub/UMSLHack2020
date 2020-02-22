@@ -2,7 +2,7 @@
   "name": "umslhack2020",
   "version": "1.0.0",
   "description": "Application for UMSL Hack 2020",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sluh-hackclub/UMSLHack2020/issues"
   },
-  "homepage": "https://github.com/sluh-hackclub/UMSLHack2020#readme"
+  "homepage": "https://github.com/sluh-hackclub/UMSLHack2020#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
 }
