@@ -1,5 +1,3 @@
 # UMSLHack2020
 
-ghghgh
-
-hello world
+SLUH Hack Club's project for UMSL Hack 2020
