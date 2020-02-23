@@ -7,6 +7,8 @@ const questionnairePages = {
   whatsymptoms: "whatsymptoms.html",
   entercontacts: "entercontacts.html"
 };
+const apiBase = "/api/v1/";
+var accessingUser = "";
 
 //remove the below list before final app
 var samplePatients = [
@@ -52,6 +54,10 @@ app.config(function($routeProvider, $locationProvider) {
 });
 
 app.controller("HomeController", function($scope, $location) {
+  if ($location.search().token) {
+    $location.path("/questionnaire");
+    accessingUser = "John Murray";
+  }
   $scope.goToQuestionnaire = function() {
     $location.path("/questionnaire");
   };
@@ -80,15 +86,35 @@ function PatientController($routeParams) {
 
 app.controller("PatientController", PatientController);
 
-// app.service("loadCategories", function($http) {
-//   this.load = function(parentId) {
-//     return $http
-//       .get(categoryUrl + parentId, { responseType: "json" })
-//       .then(function(response) {
-//         return response.data;
-//       });
+// app.factory("locations", function($http) {
+//   this.get = function() {
+//     return
 //   };
+//   return this;
 // });
+
+app.factory("sendEmail", function($http) {
+  // TODO: edit this code to use as a serivce to retrieve patient data
+  this.post = function(email) {
+    $http
+      .post(
+        apiBase + "sendEmail",
+        { email: email },
+        {
+          headers: { "Content-Type": "app3lication/json" }
+        }
+      )
+      .then(
+        function() {
+          console.log("email successfully sent"); //debugging
+        },
+        function() {
+          console.log("there was an error sending the email"); //debugging
+        }
+      );
+  };
+  return this;
+});
 
 function LeafletJSFactory($window) {
   if (!window.L) {
@@ -125,8 +151,26 @@ app.factory("passLocation", function() {
   };
 });
 
-function LocationHistoryPageController($scope, L, passLocation, $location) {
-  var mymap = L.map("mapid").setView([51.505, -0.09], 13);
+function LocationHistoryPageController(
+  $scope,
+  L,
+  passLocation,
+  $location,
+  $http
+) {
+  $scope.showMap = true;
+
+  var mymap = L.map("mapid").setView([38.947871, -89.599644], 5);
+
+  function onMarkerClick(e) {
+    setTimeout(function() {
+      $scope.showMap = false;
+    }, 3000);
+    passLocation.setLocation(e.latlng);
+    console.log("redirecting");
+    $location.path("/mapcontacts").replace();
+    $scope.$apply();
+  }
 
   L.tileLayer(
     "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw",
@@ -142,51 +186,38 @@ function LocationHistoryPageController($scope, L, passLocation, $location) {
     }
   ).addTo(mymap);
 
-  L.marker([51.5, -0.09])
-    .addTo(mymap)
-    .bindPopup("<b>Hello world!</b><br />I am a popup.")
-    .openPopup();
+  $http
+    .get(apiBase + "locations", { responseType: "json" })
+    .then(function(response) {
+      console.log(response.data);
+      response.data.locations.forEach(element => {
+        console.log(element);
+        L.marker([element.latitude, element.longitude])
+          .addTo(mymap)
+          .on("click", onMarkerClick)
+          .bindPopup(element.name);
+      });
+    });
 
-  L.circle([51.508, -0.11], 500, {
-    color: "red",
-    fillColor: "#f03",
-    fillOpacity: 0.5
-  })
-    .addTo(mymap)
-    .bindPopup("I am a circle.");
+  // console.log(locationData);
+  // locationData = locationData.locations;
+  // locationData.forEach(element => {
+  //   L.marker(element["latitude"], element["longitude"])
+  //     .addTo(mymap)
+  //     .on("click", onMarkerClick)
+  //     .bindPopup(element["name"]);
+  // });
 
-  L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
-  ])
-    .addTo(mymap)
-    .bindPopup("I am a polygon.");
-
-  var popup = L.popup();
-
-  function onMapClick(e) {
-    popup
-      .setLatLng(e.latlng)
-      .setContent("Opening page to add new contacts...")
-      .openOn(mymap);
-
-    setTimeout(function() {
-      passLocation.setLocation(e.latlng);
-      console.log("redirecting");
-      $location.path("/mapcontacts").replace();
-      $scope.$apply();
-    }, 2000);
-  }
-
-  mymap.on("click", onMapClick);
+  //when demonstrating, do not click on a marker, click right next to one
+  // mymap.on("click", onMapClick); // include in loop?
 }
 
 LocationHistoryPageController.$inject = [
   "$scope",
   "L",
   "passLocation",
-  "$location"
+  "$location",
+  "$http"
 ];
 
 app.controller("LocationHistoryPageController", LocationHistoryPageController);
@@ -194,6 +225,10 @@ app.controller("LocationHistoryPageController", LocationHistoryPageController);
 app.controller("QuestionnaireController", function($scope, $location) {
   if (!$scope.page) {
     $scope.page = "partials/" + questionnairePages["infopage"];
+  }
+
+  if (accessingUser) {
+    $scope.accessingUser = accessingUser;
   }
 
   $scope.formObject = {};
@@ -235,7 +270,8 @@ app.service("objectPusher", function($http) {
 app.controller("AddContactsFromMapController", function(
   $scope,
   passLocation,
-  $sce
+  $sce,
+  sendEmail
 ) {
   $scope.trustUrl = function(path) {
     return $sce.trustAsResourceUrl(path);
@@ -248,4 +284,8 @@ app.controller("AddContactsFromMapController", function(
   console.log(panoURL);
 
   $scope.panoPath = panoURL;
+
+  $scope.update = function(email) {
+    sendEmail.post(email);
+  };
 });
