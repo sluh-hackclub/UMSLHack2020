@@ -31,9 +31,9 @@
       <div class="container  has-text-centered">
 
         <div class="notification box">
-          <h5 class="subtitle is-5">
-          Welcome to your Personalized Questionnaire: {{accessingUser ?  accessingUser : 'Name?'}}
-          </h5>
+          <h5 class="subtitle is-5"> 
+          {{accessingUser ?  'Welcome to your Personalized Questionnaire ' + accessingUser : 'Your Name?'}}
+          </h6>
         </div>
       </div>
     </section>
@@ -64,7 +64,7 @@
     </div>
   </section> -->
 <br>
-<section class="section">
+<section class="section" ng-hide="accessingUser">
   <div class="container">
     <div class="columns">
       <div class="column">
