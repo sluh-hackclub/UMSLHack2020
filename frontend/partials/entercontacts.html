@@ -1,0 +1,108 @@
+<div>
+  <section class="hero has-background-info is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="has-text-white title has-text-centered">
+          People You Have Been In Contact With
+        </h1>
+      </div>
+      <div class="container">
+        <br />
+      </div>
+    </div>
+  </section>
+  <br />
+  <section>
+    <div class="container  has-text-centered">
+      <div class="notification">
+        <h6>
+          People you have been in contact with during the incubation period.
+        </h6>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container" id="listOfPeople">
+      <div class="columns">
+        <div class="column">
+          <div class="field">
+            <div class="control">
+              <h7>Last Name</h7>
+              <input class="input" type="Last Name" placeholder="e.g. Doan" />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="field">
+            <div class="control">
+              <h7>First Name</h7>
+              <input class="input" type="First Name" placeholder="e.g. John" />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="field">
+            <div class="control">
+              <h7>Email</h7>
+              <input
+                class="input"
+                type="email"
+                placeholder="e.g. berniesanders2020@gmail.com"
+              />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="field">
+            <div class="control">
+              <h7>Phone </h7>
+              <input
+                class="input"
+                type="number"
+                placeholder="e.g. 3144353535"
+              />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section">
+      <div class="buttons is-centered">
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link" onclick="addPerson()">
+              Add Person
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="section">
+    <div class="buttons is-centered">
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link" ng-click="toLocationHistory()">
+            Continue
+          </button>
+        </div>
+        <div class="control">
+          <button
+            class="button is-link is-light"
+            ng-click="nextPage('whatsymptoms')"
+          >
+            Go Back
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

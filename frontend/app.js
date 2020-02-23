@@ -1,8 +1,11 @@
 const app = angular.module("virusTracker", ["ngRoute"]);
 const questionnairePages = {
   infopage: "infopage.html",
-  howlong: "howlong.html"
-  //add all the questionnaire pages in here
+  howlong: "howlong.html",
+  beenDiagnosed: "beenDiagnosed.html",
+  showingsymptoms: "showingsymptoms.html",
+  whatsymptoms: "whatsymptoms.html",
+  entercontacts: "entercontacts.html"
 };
 
 app.config(function($routeProvider, $locationProvider) {
@@ -45,15 +48,6 @@ function PatientController() {}
 //       });
 //   };
 // });
-
-app.directive("addContactsFromMap", function() {
-  return {
-    templateUrl: "partials/addcontactsfrommap.html",
-    scope: {
-      location: "=location"
-    }
-  };
-});
 
 function LeafletJSFactory($window) {
   if (!window.L) {
@@ -156,16 +150,16 @@ LocationHistoryPageController.$inject = [
 
 app.controller("LocationHistoryPageController", LocationHistoryPageController);
 
-app.controller("QuestionnaireController", function($scope) {
-  console.log($scope.page);
-
+app.controller("QuestionnaireController", function($scope, $location) {
   if (!$scope.page) {
     $scope.page = "partials/" + questionnairePages["infopage"];
   }
 
-  console.log($scope.page);
-
   $scope.formObject = {};
+
+  $scope.toLocationHistory = function() {
+    $location.path("/locationhistory");
+  };
 
   $scope.nextPage = function(pageId) {
     $scope.page = "partials/" + questionnairePages[pageId];

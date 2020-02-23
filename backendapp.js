@@ -2,10 +2,19 @@ const express = require('express');
 const session = require('express-session');
 const morgan = require('morgan');
 const app = express();
-const admin = require('firebase-admin');
+// const admin = require('firebase-admin');
 const path = require('path');
-const serviceAccount = require(path.join(__dirname, '/firebase_private_key.json'));
+// const serviceAccount = require(path.join(__dirname, '/firebase_private_key.json'));
 const mongoose = require('mongoose');
+const nodemailer = require('nodemailer');
+
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAILACCOUNT,
+    pass: process.env.EMAILPW
+  }
+});
 
 const Patient = require('./models/patient.js');
 
@@ -13,22 +22,22 @@ const Patient = require('./models/patient.js');
 //   firstname: 'John',
 //   lastname: 'Shit',
 //   email: 'johnshit@gmail.com',
-//   infected: true
+//   degree: 0 // a degree of seperation of 0 means infected
 // });
 //
 // newPatient.locations.push({latitude: 38.7109553, longitude: -90.3137369, frequency: 8});
 //
 // newPatient.save();
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://umslhack2020-60fa2.firebaseio.com"
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+//   databaseURL: "https://umslhack2020-60fa2.firebaseio.com"
+// });
 
 app.use(morgan('dev'));
 
 app.use(express.urlencoded({extended: false}));
-app.use(express.json());
+app.use(express.json({'limit': '10mb'}));
 
 app.use(express.static('frontend'));
 
@@ -56,7 +65,6 @@ mongoose.connect(mongooseConnectionString, {
 });
 
 const db = mongoose.connection;
-
 
 const sess = {
   secret: 'fkdsjfksjdiof7aw98nf9nDS*F(SDNUFOIVOIUDFD*&FBDJcdsfs7df8b)',
@@ -97,11 +105,52 @@ app.get('/', (req, res, next) => {
 
 app.get('/api/v1/locations', (req, res, next) => {
   const email = 'patient@umslhack.io';
+  const finalResponse = {};
   Patient.findOne({ email: email }).then(doc => {
     console.log(doc.locations);
     res.status(200).json({locations: doc.locations});
   });
 });
+
+app.post('/api/v1/importgooglejson', (req, res, next) => {
+  const email = 'patient@umslhack.io';
+  Patient.findOne({email: email}).then(doc => {
+    // console.log(req.body.timelineObjects.length);
+    for (let i = 0; i < req.body.timelineObjects.length; i++) {
+      if (req.body.timelineObjects[i].hasOwnProperty('placeVisit')) {
+        // console.log(req.body.timelineObjects[i].placeVisit);
+        const latitude = req.body.timelineObjects[i].placeVisit.location.latitudeE7 * 1E-7;
+        const longitude = req.body.timelineObjects[i].placeVisit.location.longitudeE7 * 1E-7;
+        const name = req.body.timelineObjects[i].placeVisit.location.name.replace(/\n/g, " ");
+        const address = req.body.timelineObjects[i].placeVisit.location.address.replace(/\n/g, " ");
+        const endtime = req.body.timelineObjects[i].placeVisit.duration.endTimestampMs;
+        // console.log(latitude + ", " + longitude + " " + name + " " + address);
+        console.log(doc.locations);
+        let duplicate = false;
+        for (let i = 0; i < doc.locations.length; i++) {
+          if (latitude === doc.locations[i].latitude && longitude === doc.locations[i].longitude) {
+            duplicate = true;
+            doc.locations[i].frequency++;
+            if (typeof doc.locations[i].lasttime !== 'number' || endtime > doc.locations[i].lasttime) {
+              doc.locations[i].lasttime = endtime;
+            }
+          }
+        }
+        if (!duplicate) {
+          doc.locations.push({
+            latitude: latitude,
+            longitude: longitude,
+            name: name,
+            address: address,
+            frequency: 1,
+            lasttime: endtime
+          });
+        }
+      }
+    }
+    doc.save();
+  });
+})
 
 app.post('/api/v1/auth', (req, res, next) => {
   // if already logged in, redirect to dashboard
