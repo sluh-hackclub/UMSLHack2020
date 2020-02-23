@@ -2,12 +2,24 @@ const mongoose = require('mongoose');
 
 const locationSchema = new mongoose.Schema({
   latitude: {
-    type: Number
+    type: Number,
+    required: true
   },
   longitude: {
-    type: Number
+    type: Number,
+    required: true
   },
   frequency: {
+    type: Number,
+    required: true
+  },
+  name: {
+    type: String
+  },
+  address: {
+    type: String
+  },
+  lasttime: {
     type: Number
   }
 });
@@ -22,8 +34,8 @@ const patientSchema = new mongoose.Schema({
   email: {
     type: String
   },
-  infected: {
-    type: Boolean
+  degree: {
+    type: Number
   },
   locations: {
     type: [locationSchema]
