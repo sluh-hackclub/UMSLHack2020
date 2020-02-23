@@ -14,6 +14,7 @@
       $("#listOfPeople").on("click", ".remove_field", function(e) {
         //user click on remove text
         e.preventDefault();
+        console.log("clicked to remove");
         $(this)
           .parent("div")
           .remove();
@@ -22,7 +23,7 @@
 
     function addPerson() {
       $("#listOfPeople").append(
-        '<div class="columns"> <div class="column"> <div class="field"> <div class="control"> <h7>Last Name</h7> <input class="input" type="Last Name" placeholder="e.g. Doan"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>First Name</h7> <input class="input" type="First Name" placeholder="e.g. John"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Email</h7> <input class="input" type="email" placeholder="e.g. berniesanders2020@gmail.com"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Phone </h7> <input class="input" type="number" placeholder="e.g. 3144353535"> <br> <br> </div> </div> </div> <a href="#" class="button is-danger remove_field">X</a> </div>'
+        '<div class="columns"> <div class="column"> <div class="field"> <div class="control"> <h7>Last Name</h7> <input class="input" type="Last Name" placeholder="e.g. Doan"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>First Name</h7> <input class="input" type="First Name" placeholder="e.g. John"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Email</h7> <input class="input" type="email" placeholder="e.g. berniesanders2020@gmail.com"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Phone </h7> <input class="input" type="number" placeholder="e.g. 3144353535"> <br> <br> </div> </div> </div> <button class="button is-danger remove_field">X</button> </div>'
       ); //add input box
     }
   </script>
