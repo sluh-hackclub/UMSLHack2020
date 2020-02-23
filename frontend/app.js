@@ -134,9 +134,11 @@ app.factory("L", LeafletJSFactory);
 
 app.factory("passLocation", function() {
   var location;
+  var locationName;
 
-  var setLocation = function(locationObject) {
+  var setLocation = function(locationObject, name) {
     location = locationObject;
+    locationName = name;
     return;
   };
 
@@ -149,9 +151,14 @@ app.factory("passLocation", function() {
     }
   };
 
+  var getLocationName = function() {
+    return locationName;
+  };
+
   return {
     setLocation: setLocation,
-    getLocation: getLocation
+    getLocation: getLocation,
+    getLocationName: getLocationName
   };
 });
 
@@ -165,13 +172,20 @@ function LocationHistoryPageController(
   $scope.showMap = true;
 
   var mymap = L.map("mapid").setView([38.947871, -89.599644], 5);
+  var locationData;
+  var specifiedLocation;
 
   function onMarkerClick(e) {
     // setTimeout(function() {
     //   $scope.showMap = false;
     // }, 3000);
-    passLocation.setLocation(e.latlng);
-    console.log("redirecting...");
+    var specifiedLocation = locationData.filter(function(object) {
+      return object.latitude == e.latlng.lat;
+    });
+
+    console.log(specifiedLocation);
+
+    passLocation.setLocation(e.latlng, specifiedLocation[0].name);
     $location.path("/mapcontacts").replace();
     $scope.$apply();
   }
@@ -193,9 +207,8 @@ function LocationHistoryPageController(
   $http
     .get(apiBase + "locations", { responseType: "json" })
     .then(function(response) {
-      console.log(response.data);
-      response.data.locations.forEach(element => {
-        console.log(element);
+      locationData = response.data.locations;
+      locationData.forEach(element => {
         L.marker([element.latitude, element.longitude])
           .addTo(mymap)
           .on("click", onMarkerClick)
@@ -281,7 +294,10 @@ app.controller("AddContactsFromMapController", function(
   $scope.trustUrl = function(path) {
     return $sce.trustAsResourceUrl(path);
   };
+
+  $scope.locationName = passLocation.getLocationName();
   var location = passLocation.getLocation();
+
   var apiKey = "AIzaSyA60Sq7IJTVHhW2-zoV4WfTaCn9sDLl_zo";
 
   var panoURL = `https://www.google.com/maps/embed/v1/streetview?key=${apiKey}&location=${location.lat},${location.lng}&heading=210&pitch=10&fov=35`;
@@ -289,6 +305,8 @@ app.controller("AddContactsFromMapController", function(
   console.log(panoURL);
 
   $scope.panoPath = panoURL;
+
+  $scope.finished = () => $location.path("/completed");
 
   $scope.update = function(emailAddress) {
     $http
@@ -307,6 +325,8 @@ app.controller("AddContactsFromMapController", function(
           console.log("there was an error sending the email"); //debugging
         }
       );
-    $location.path("/completed");
+    // $scope.contactName = "";
+    // $scope.contactEmail = "";
+    $location.path("/locationhistory");
   };
 });

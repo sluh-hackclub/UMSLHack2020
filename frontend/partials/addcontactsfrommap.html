@@ -17,7 +17,7 @@
       <div class="columns">
         <div class="column is-two-thirds">
           <div class="box">
-            <h1 class="subtitle">Location You Were At: Dallas Love Field Airport</h1>
+            <h1 class="subtitle">Location You Were At: {{locationName}}</h1>
             <h3 class="is-subtitle is3">Does you remember any additional contacts at this location?</h3>
           </div>
           <div class="box">
@@ -49,7 +49,9 @@
             </div>
 
             <button class="button is-info" ng-click="update(contactEmail)">Submit</button>
+            <button class="button is-info" ng-click="finished()">Finish Questionnaire</button>
         </div>
+        <div class="notifcation is-success" ng-show="isSubmitted">Contact successfully submitted?</div>
       </div>
     </div>
   </div>

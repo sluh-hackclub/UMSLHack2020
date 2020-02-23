@@ -26,15 +26,16 @@
 
     <style>
       #mapid {
-        height: 400px;
+        width: 100%;
+        height: calc(100% - 150px);
       }
-      .section {
+      /* .section {
         padding: 15px 0 0 0;
-      }
+      } */
     </style>
   </head>
   <body style="background-color: #f7f7f7;">
-    <section class="hero has-background-info is-small">
+    <section class="hero has-background-info is-small" style="height: 150px">
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-centered has-text-white">
@@ -47,7 +48,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <!-- <section class="section">
       <div class="container">
         <div class="box" ng-hide="showMap">
           <h2 class="subtitle is-2">
@@ -55,9 +56,10 @@
           </h2>
         </div>
         <div class="box" ng-hide="!showMap">
-          <div id="mapid"></div>
+          
         </div>
       </div>
-    </section>
+    </section> -->
+    <div id="mapid"></div>
   </body>
 </html>
