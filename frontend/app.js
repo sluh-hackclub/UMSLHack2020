@@ -75,7 +75,7 @@ app.controller("DashboardController", DashboardController);
 function PatientController($routeParams) {
   var patientId = $routeParams.patientId;
 
-  //TODO: add code to retrieve patient data using patientId
+  //TODO: add code to retrieve patient data using patientId and to load it into the patients page
 }
 
 app.controller("PatientController", PatientController);
