@@ -2,10 +2,19 @@ const express = require('express');
 const session = require('express-session');
 const morgan = require('morgan');
 const app = express();
-const admin = require('firebase-admin');
+// const admin = require('firebase-admin');
 const path = require('path');
-const serviceAccount = require(path.join(__dirname, '/firebase_private_key.json'));
+// const serviceAccount = require(path.join(__dirname, '/firebase_private_key.json'));
 const mongoose = require('mongoose');
+const nodemailer = require('nodemailer');
+
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAILACCOUNT,
+    pass: process.env.EMAILPW
+  }
+});
 
 const Patient = require('./models/patient.js');
 
@@ -20,10 +29,10 @@ const Patient = require('./models/patient.js');
 //
 // newPatient.save();
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://umslhack2020-60fa2.firebaseio.com"
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+//   databaseURL: "https://umslhack2020-60fa2.firebaseio.com"
+// });
 
 app.use(morgan('dev'));
 
