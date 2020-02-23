@@ -34,9 +34,14 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: "partials/locationhistory.html",
       controller: "LocationHistoryPageController"
     })
-    .when("/", {
+    .when("/questionnaire", {
+      //lets hope changing it to /questionnaire did not screw anything up ... praying
       templateUrl: "partials/questionnaire.html",
       controller: "QuestionnaireController"
+    })
+    .when("/", {
+      templateUrl: "partials/home.html",
+      controller: "HomeController"
     })
     .when("/patient/:patientId", {
       templateUrl: "partials/patient.html",
@@ -44,6 +49,15 @@ app.config(function($routeProvider, $locationProvider) {
     })
     .otherwise({ redirectTo: "/" });
   $locationProvider.html5Mode(true);
+});
+
+app.controller("HomeController", function($scope, $location) {
+  $scope.goToQuestionnaire = function() {
+    $location.path("/questionnaire");
+  };
+  $scope.goToDashboard = function() {
+    $location.path("/dashboard");
+  };
 });
 
 function DashboardController($scope, $location) {
