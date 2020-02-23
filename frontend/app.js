@@ -8,6 +8,17 @@ const questionnairePages = {
   entercontacts: "entercontacts.html"
 };
 
+//remove the below list before final app
+var samplePatients = [
+  {
+    id: 1,
+    lastname: "Smith",
+    firstname: "John",
+    country: "England",
+    degofsep: 0
+  }
+];
+
 app.config(function($routeProvider, $locationProvider) {
   $routeProvider
     .when("/dashboard", {
@@ -35,9 +46,25 @@ app.config(function($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
 });
 
-function DashboardController() {}
+function DashboardController($scope, $location) {
+  //TODO: add code to retrieve patients
 
-function PatientController() {}
+  $scope.patients = samplePatients;
+
+  $scope.viewPatient = function(patientId) {
+    $location.path("/patient/" + patientId); //TODO: make sure patientId is a string or is converted to one
+  };
+}
+
+app.controller("DashboardController", DashboardController);
+
+function PatientController($routeParams) {
+  var patientId = $routeParams.patientId;
+
+  //TODO: add code to retrieve patient data using patientId
+}
+
+app.controller("PatientController", PatientController);
 
 // app.service("loadCategories", function($http) {
 //   this.load = function(parentId) {

@@ -1,7 +1,12 @@
 <head>
-
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+  <link
+    href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+  />
   <base href="/" />
   <style>
     /* .modal {
@@ -31,7 +36,10 @@
     <div class="container">
       <div class="navbar-brand">
         <a href="/" class="navbar-item">
-          <img src="https://raw.githubusercontent.com/sluh-hackclub/diagnosys/master/logo/NEW1.png" style="max-height: 50px"/>
+          <img
+            src="https://raw.githubusercontent.com/sluh-hackclub/diagnosys/master/logo/NEW1.png"
+            style="max-height: 50px"
+          />
         </a>
       </div>
     </div>
@@ -42,7 +50,11 @@
       <div class="box">
         <div class="field has-addons">
           <div class="control">
-            <input class="input is-fullwidth" type="text" placeholder="Patient Query..."/>
+            <input
+              class="input is-fullwidth"
+              type="text"
+              placeholder="Patient Query..."
+            />
           </div>
           <div class="control">
             <a class="button is-link">Search</a>
@@ -50,31 +62,31 @@
         </div>
       </div>
       <div class="columns">
-        <div class="column is-two-thirds">
+        <div class="column ">
           <div class="box">
             <table class="table is-hoverable is-fullwidth">
               <thead>
                 <tr>
                   <th>
-                    Patient Id
+                    Patient ID
                   </th>
                   <th>
-                    Last Name 
+                    Last Name
                   </th>
                   <th>
-                    First Name 
+                    First Name
                   </th>
                   <th>
-                    Country 
+                    Country
                   </th>
-                  <th> 
-                    Zip Code 
+                  <th>
+                    Zip Code
                   </th>
                   <th>
                     Degree of Seperation
                   </th>
                   <th>
-                    Risk Level 
+                    Risk Level
                   </th>
                   <th>
                     Find Out More
@@ -82,89 +94,41 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr ng-repeat="patient in patients">
                   <td>
-                    196
+                    {{patient.id}}
                   </td>
                   <td>
-                    Smith
+                    {{patient.lastname}}
                   </td>
                   <td>
-                    John
+                    {{patient.firstname}}
                   </td>
                   <td>
-                    China 
+                    {{patient.country}}
                   </td>
                   <td>
-                    1861
+                    {{patient.degofsep}}
                   </td>
                   <td>
-                    0
+                    <span
+                      class="tag"
+                      ng-class="patient.degofsep == 0 ? 'is-danger':'is-warning'"
+                      >{{patient.degofsep == 0 ? 'Infected' : 'Possible
+                      Risk'}}</span
+                    >
                   </td>
                   <td>
-                    <span class="tag is-danger">Infected</span>
-                  </td>
-                  <td>
-                    <a href="patient.html"><button class="button">More Info</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    197
-                  </td>
-                  <td>
-                    Jiang
-                  </td>
-                  <td>
-                    Chris 
-                  </td>
-                  <td>
-                    China 
-                  </td>
-                  <td>
-                    1776
-                  </td>
-                  <td>
-                    1
-                  </td>
-                  <td>
-                    <span class="tag is-warning">1st Degree</span>
-                  </td>
-                  <td>
-                    <a href="patient.html"><button class="button">More Info</button></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    198
-                  </td>
-                  <td>
-                    Doan  
-                  </td>
-                  <td>
-                    John
-                  </td>
-                  <td>
-                    USA
-                  </td>
-                  <td>
-                    1234
-                  </td>
-                  <td>
-                    2
-                  </td>
-                  <td>
-                    <span class="tag is-success">2nd+ Degree</span>
-                  </td>
-                  <td>
-                    <button class="button">More Info</button>
+                    <button class="button" ng-click="viewPatient(patient.id)">
+                      More Info
+                    </button>
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div class="column is-one-third">
+        <!-- <div class="column is-one-third">
           <div class="box">
             <aside class="menu">
               <p class="menu-label">
@@ -199,12 +163,12 @@
               </ul>
             </aside>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 
-    <!-- <div class="input-group">
+  <!-- <div class="input-group">
       <div class="input-group-prepend">
         <span class="input-group-text" style="border-radius: 0">Search by Donor Name</span>
       </div>
@@ -243,5 +207,4 @@
     </div>
   </div>
   </div> -->
-
 </body>
