@@ -7,13 +7,14 @@
     <title>Bulma Test</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         function removePerson(person) { //user click on remove text
           person.parentNode.parentNode.removeChild(person.parentNode);
         }
 
         function addPerson() {
-            document.getElementById("listOfPeople").innerHTML += '<div class="columns"> <div class="column"> <div class="field"> <div class="control"> <h7>Last Name</h7> <input class="input" type="Last Name" placeholder="e.g. Doan"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>First Name</h7> <input class="input" type="First Name" placeholder="e.g. John"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Email</h7> <input class="input" type="email" placeholder="e.g. johnsmith@example.com"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Phone </h7> <input class="input" type="number" placeholder="e.g. 3144353535"> <br> <br> </div> </div> </div> <button class="button is-danger" onclick="removePerson(this)">X</button> </div>'; //add input box
+            $("#listOfPeople").append('<div class="columns"> <div class="column"> <div class="field"> <div class="control"> <h7>Last Name</h7> <input class="input" type="Last Name" placeholder="e.g. Doan"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>First Name</h7> <input class="input" type="First Name" placeholder="e.g. John"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Email</h7> <input class="input" type="email" placeholder="e.g. johnsmith@example.com"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Phone </h7> <input class="input" type="number" placeholder="e.g. 3144353535"> <br> <br> </div> </div> </div> <button class="button is-danger" onclick="removePerson(this)">X</button> </div>'); //add input box
         }
     </script>
 </head>
