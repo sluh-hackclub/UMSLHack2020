@@ -7,7 +7,7 @@ const path = require("path");
 // const serviceAccount = require(path.join(__dirname, '/firebase_private_key.json'));
 const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
-const applicationURL = "http://127.0.0.1:3005?token=101a2hb3"; //TODO: set application URL for email links
+const applicationURL = "https://umslhack2020.sluhhackclub.com/?token=101a2hb3"; //TODO: set application URL for email links
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
