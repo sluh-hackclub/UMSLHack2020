@@ -103,6 +103,10 @@ app.get('/', (req, res, next) => {
   }
 });
 
+app.get('/login', (req, res, next) => {
+  res.sendFile(path.join(__dirname, '/frontend/partials/login.html'));
+});
+
 app.get('/api/v1/locations', (req, res, next) => {
   const email = 'patient@umslhack.io';
   const finalResponse = {};
