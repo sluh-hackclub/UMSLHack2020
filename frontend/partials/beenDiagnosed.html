@@ -1,59 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bulma Test</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </head>
-  <body>
-    <section class="hero has-background-info is-small">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title has-text-centered has-text-white">
-            Questionnaire
-          </h1>
-        </div>
+<div>
+  <section class="hero has-background-info is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-centered has-text-white">
+          Questionnaire
+        </h1>
       </div>
-    </section>
-    <sesction>
-        <br>
-        <div class="container  has-text-centered">
-          <div class="notification box">
-            <h6>  
-              Have you been diagnosed with the Coronovirus?
-            </h6>
-          </div>
-        </div>
-    </sesction>
-    <section>
-        <div class="container  has-text-centered">
-        <div class="section">
-          <div class="buttons is-centered">
-            <div class="field is-grouped">
-    
-                <div class="control">
-                  <button class="button is-link">Yes</button>
-                </div>
-                <div class="control">
-                  <button class="button is-link">No</button>
-                </div>
-    
-            </div>
-            </div>
-
-        </div>
+    </div>
+  </section>
+  <sesction>
+    <br />
+    <div class="container  has-text-centered">
+      <div class="notification box">
+        <h6>
+          Have you been diagnosed with the Coronovirus?
+        </h6>
       </div>
-      <div class="buttons is-centered">
-        <div class="field is-grouped">
+    </div>
+  </sesction>
+  <section>
+    <div class="container  has-text-centered">
+      <div class="section">
+        <div class="buttons is-centered">
+          <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link is-light">Go Back</button>
+              <button class="button is-link" ng-click="nextPage('howlong')">
+                Yes
+              </button>
+            </div>
+            <div class="control">
+              <button
+                class="button is-link"
+                ng-click="nextPage('showingsymptoms')"
+              >
+                No
+              </button>
             </div>
           </div>
         </div>
-        
-    </section>
-
-  </body>
-</html>
+      </div>
+    </div>
+    <div class="buttons is-centered">
+      <div class="field is-grouped">
+        <div class="control">
+          <button
+            class="button is-link is-light"
+            ng-click="nextPage('infopage')"
+          >
+            Go Back
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
