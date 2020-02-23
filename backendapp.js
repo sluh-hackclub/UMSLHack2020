@@ -281,7 +281,8 @@ app.use((req, res, next) => {
 app.use((error, req, res, next) => {
   res.status(error.status || 500);
   if (error.status === 404) {
-    res.send("Error 404");
+    // res.send("Error 404");
+    res.redirect('/');
   } else {
     res.send("Error 500");
   }

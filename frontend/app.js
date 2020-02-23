@@ -18,6 +18,20 @@ var samplePatients = [
     firstname: "John",
     country: "England",
     degofsep: 0
+  },
+  {
+    id: 1386,
+    lastname: "Blittschau",
+    firstname: "Daniel",
+    country: "England",
+    degofsep: 1
+  },
+  {
+    id: 1387,
+    lastname: "Fortman",
+    firstname: "Carter",
+    country: "England",
+    degofsep: 2
   }
 ];
 
