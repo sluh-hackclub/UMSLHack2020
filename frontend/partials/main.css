@@ -1,0 +1,11 @@
+a.is-active {
+  /* color: #1ba0c1 !important; */
+  color: #363636 !important;
+  background-color: #f5f5f5 !important;
+  /* background-image: linear-gradient(to top, #1ba0c1, #2aacce, #37b9da, #43c6e7, #4ed3f4); */
+}
+
+.is-diagnosys-gradient {
+  background-image: linear-gradient(to top, #1ba0c1, #2aacce, #37b9da, #43c6e7, #4ed3f4);
+  color: white;
+}
