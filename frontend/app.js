@@ -1,36 +1,50 @@
 const app = angular.module("virusTracker", ["ngRoute"]);
+const questionnairePages = {
+  infopage: "infopage.html",
+  howlong: "howlong.html"
+  //add all the questionnaire pages in here
+};
 
 app.config(function($routeProvider, $locationProvider) {
   $routeProvider
     .when("/dashboard", {
-      templateUrl: "partials/donors.html",
-      controller: "donorController"
+      templateUrl: "partials/dashboard.html",
+      controller: "DashboardController"
     })
     .when("/mapcontacts", {
       templateUrl: "partials/addcontactsfrommap.html",
       controller: "AddContactsFromMapController"
     })
-    .when("/", {
+    .when("/locationhistory", {
+      //TODO:change this to the actual index not the location page
       templateUrl: "partials/locationhistory.html",
       controller: "LocationHistoryPageController"
     })
-    .when("/welcome", {
-      templateUrl: "partials/welcome.html",
-      controller: "welcomeController"
+    .when("/", {
+      templateUrl: "partials/questionnaire.html",
+      controller: "QuestionnaireController"
+    })
+    .when("/patient/:patientId", {
+      templateUrl: "partials/patient.html",
+      controller: "PatientController"
     })
     .otherwise({ redirectTo: "/" });
   $locationProvider.html5Mode(true);
 });
 
-app.service("loadCategories", function($http) {
-  this.load = function(parentId) {
-    return $http
-      .get(categoryUrl + parentId, { responseType: "json" })
-      .then(function(response) {
-        return response.data;
-      });
-  };
-});
+function DashboardController() {}
+
+function PatientController() {}
+
+// app.service("loadCategories", function($http) {
+//   this.load = function(parentId) {
+//     return $http
+//       .get(categoryUrl + parentId, { responseType: "json" })
+//       .then(function(response) {
+//         return response.data;
+//       });
+//   };
+// });
 
 app.directive("addContactsFromMap", function() {
   return {
@@ -142,8 +156,20 @@ LocationHistoryPageController.$inject = [
 
 app.controller("LocationHistoryPageController", LocationHistoryPageController);
 
-app.controller("FormController", function($scope) {
+app.controller("QuestionnaireController", function($scope) {
+  console.log($scope.page);
+
+  if (!$scope.page) {
+    $scope.page = "partials/" + questionnairePages["infopage"];
+  }
+
+  console.log($scope.page);
+
   $scope.formObject = {};
+
+  $scope.nextPage = function(pageId) {
+    $scope.page = "partials/" + questionnairePages[pageId];
+  };
 
   $scope.submit = function(formId, formData) {
     $scope.formObject = angular.copy(formData);
@@ -181,7 +207,6 @@ app.controller("AddContactsFromMapController", function(
   };
   var location = passLocation.getLocation();
   var apiKey = "AIzaSyA60Sq7IJTVHhW2-zoV4WfTaCn9sDLl_zo";
-  // var panoURL = `https://maps.googleapis.com/maps/api/streetview?location=${location.lat},${location.lng}&size=600x300&key=${apiKey}`;
 
   var panoURL = `https://www.google.com/maps/embed/v1/streetview?key=${apiKey}&location=${location.lat},${location.lng}&heading=210&pitch=10&fov=35`;
 
