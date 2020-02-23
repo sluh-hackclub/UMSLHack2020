@@ -1,0 +1,149 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bulma Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		window.onload = function () {
+			var max_fields      = 10; //maximum input boxes allowed
+	
+	x = 1; //initlal text box count
+	
+	$("#listOfPeople").on("click",".remove_field", function(e){ //user click on remove text
+		e.preventDefault(); $(this).parent('div').remove(); x--;
+	})
+		}
+		function addPerson() {
+	
+		if(x < 100){ //max input box allowed
+			x++; //text box increment
+			$("#listOfPeople").append('<div class="columns"><div class="column"> <div class="field"><div class="control"><h7>Last Name</h7><input class="input" type="Last Name" placeholder="e.g. Doan"><br><br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>First Name</h7> <input class="input" type="First Name" placeholder="e.g. John"> <br> <br> </div> </div> </div> <div class="column"> <div class="field"> <div class="control"> <h7>Email</h7> <input class="input" type="email" placeholder="e.g. berniesanders2020@gmail.com"> <br> <br> </div> </div>   </div> <a href="#" class="button is-danger remove_field">Remove Person</a> </div>'); //add input box
+		}
+		}
+	
+
+	</script>
+  </head>
+    <body>
+      <section class="hero has-background-info is-medium">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="has-text-white title has-text-centered">
+            People You Have Contacted With
+            </h1>
+          </div>
+          <div class="container">
+          <br>
+            <p class="has-text-white has-text-centered">
+            Please fill out the following form with all the people you have contacted with to prevent the spread of the disease.
+            </p>
+          </div>
+        </div>
+      </section>
+    <br>
+    <section>
+      <div class="container  has-text-centered">
+        <div class="notification">
+          <h6> 
+          Name?
+          </h6>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns"> 
+          <div class="column"> 
+            <div class="field">
+              <div class="control">
+                <h7>Last Name</h7>
+                <input class="input" type="Last Name" placeholder="e.g. Doan">
+                  <br>
+                  <br>
+              </div>
+            </div>
+          </div>
+          <div class="column"> 
+            <div class="field">
+              <div class="control">
+                <h7>First Name</h7>
+                <input class="input" type="First Name" placeholder="e.g. John">
+                  <br>
+                  <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section>
+      <div class="container  has-text-centered">
+        <div class="notification">
+          <h6> 
+          People You Have Contacted With
+          </h6>
+        </div>
+      </div>
+  </section>
+    <section class="section">
+      <div class="container" id="listOfPeople">
+        <div class="columns"> 
+          <div class="column"> 
+            <div class="field">
+              <div class="control">
+                <h7>Last Name</h7>
+                <input class="input" type="Last Name" placeholder="e.g. Doan">
+                  <br>
+                  <br>
+              </div>
+            </div>
+          </div>
+          <div class="column"> 
+            <div class="field">
+              <div class="control">
+                <h7>First Name</h7>
+                <input class="input" type="First Name" placeholder="e.g. John">
+                  <br>
+                  <br>
+              </div>
+            </div>
+          </div>
+		  <div class="column"> 
+            <div class="field">
+              <div class="control">
+                <h7>Email</h7>
+                <input class="input" type="email" placeholder="e.g. berniesanders2020@gmail.com">
+                  <br>
+                  <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <section class="section"> 
+    <div class="buttons is-centered"> 
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link" onclick="addPerson()">Add Person</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+    </section> 
+  <section class="section"> 
+    <div class="buttons is-centered"> 
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Continue</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
