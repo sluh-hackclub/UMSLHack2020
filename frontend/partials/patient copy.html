@@ -1,0 +1,140 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="main.css" />
+  <base href="/" />
+  <style>
+    /* .modal {
+      z-index: 10;
+      position: absolute;
+      top: 50px;
+      display: none;
+    }
+
+    .modal-content {
+      box-shadow: 0 0 10px #999;
+    }
+
+    body {
+      position: relative;
+    } */
+    .navbar {
+      border-bottom: 2px solid #1ba0c1;
+    }
+    .patient-label {
+      background: #1ba0c1;
+      color: white;
+    }
+    .is-diagnosys {
+      background: #1ba0c1;
+      color: white;
+      border: unset;
+    }
+  </style>
+</head>
+<body class="has-navbar-fixed-top" style="background-color: hsl(0, 0%, 96%)">
+  <nav class="navbar is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+          <img src="https://raw.githubusercontent.com/sluh-hackclub/diagnosys/master/logo/NEW1.png" style="max-height: 50px"/>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="section">
+    <div class="container">
+      <div class="notification is-diagnosys-gradient">
+        <strong>PATIENT 196</strong>
+      </div>
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <div class="box">
+            <!-- <progress class="progress is-warning" value="65" max="100">In Progress</progress> -->
+            <div class="field is-grouped is-grouped-multiline">
+              <div class="container">
+                <h3>
+                  Smith, John (56)
+                </h3>
+              </div>
+              <div class="container">
+                  <p>
+                    1234 Fortman Drive, Wuhan,China, 18611
+                  </p>
+              </div>
+              <div class="container">
+                <h4>Male</h4>
+              </div>
+              <div class="control">
+                <span class="tag is-danger">Infected</span>
+              </div>
+            </div>
+            <div class="contianer">
+              <label class="label">Contact Information</label>
+            </div>
+        <div class="container">
+          <h1>Phone Number: (314) 123-4567</h1>
+        </div>
+        <div class="container">
+          <h1>Email: coolguy@gmail.com</h1>
+        </div>
+        <div class="control">
+            <div class="field">
+              <br>
+              <label class="label">Other Notes</label>
+              <textarea class="textarea"></textarea>
+            </div>
+            <div class="control">
+              <button class="button is-rounded is-success">Save Changes</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="box">
+            <aside class="menu">
+              <p class="menu-label">
+                General
+              </p>
+              <ul class="menu-list">
+                <li>
+                  <a>Home</a>
+                </li>
+                <li>
+                  <a class="is-active">Dashboard</a>
+                </li>
+                <li>
+                  <a>Logout</a>
+                </li>
+              </ul>
+              <p class="menu-label">
+                Actions
+              </p>
+              <ul class="menu-list">
+                <li>
+                  <a>Patients</a>
+                  <ul>
+                    <li>
+                      <a>Manage Patients</a>
+                    </li>
+                    <li>
+                      <a>Process Diagnosis</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
