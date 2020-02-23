@@ -49,6 +49,10 @@ app.config(function($routeProvider, $locationProvider) {
       templateUrl: "partials/patient.html",
       controller: "PatientController"
     })
+    .when("/completed", {
+      templateUrl: "partials/completed.html",
+      controller: ""
+    })
     .otherwise({ redirectTo: "/" });
   $locationProvider.html5Mode(true);
 });
@@ -56,7 +60,7 @@ app.config(function($routeProvider, $locationProvider) {
 app.controller("HomeController", function($scope, $location) {
   if ($location.search().token) {
     $location.path("/questionnaire");
-    accessingUser = "John Murray";
+    accessingUser = "Micah See";
   }
   $scope.goToQuestionnaire = function() {
     $location.path("/questionnaire");
@@ -93,28 +97,28 @@ app.controller("PatientController", PatientController);
 //   return this;
 // });
 
-app.factory("sendEmail", function($http) {
-  // TODO: edit this code to use as a serivce to retrieve patient data
-  this.post = function(email) {
-    $http
-      .post(
-        apiBase + "sendEmail",
-        { email: email },
-        {
-          headers: { "Content-Type": "app3lication/json" }
-        }
-      )
-      .then(
-        function() {
-          console.log("email successfully sent"); //debugging
-        },
-        function() {
-          console.log("there was an error sending the email"); //debugging
-        }
-      );
-  };
-  return this;
-});
+// app.factory("sendEmail", function($http) {
+//   // TODO: edit this code to use as a serivce to retrieve patient data
+//   this.post = function(email) {
+//     $http
+//       .post(
+//         apiBase + "sendEmail",
+//         { email: email },
+//         {
+//           headers: { "Content-Type": "application/json" }
+//         }
+//       )
+//       .then(
+//         function() {
+//           console.log("email successfully sent"); //debugging
+//         },
+//         function() {
+//           console.log("there was an error sending the email"); //debugging
+//         }
+//       );
+//   };
+//   return this;
+// });
 
 function LeafletJSFactory($window) {
   if (!window.L) {
@@ -163,11 +167,11 @@ function LocationHistoryPageController(
   var mymap = L.map("mapid").setView([38.947871, -89.599644], 5);
 
   function onMarkerClick(e) {
-    setTimeout(function() {
-      $scope.showMap = false;
-    }, 3000);
+    // setTimeout(function() {
+    //   $scope.showMap = false;
+    // }, 3000);
     passLocation.setLocation(e.latlng);
-    console.log("redirecting");
+    console.log("redirecting...");
     $location.path("/mapcontacts").replace();
     $scope.$apply();
   }
@@ -271,7 +275,8 @@ app.controller("AddContactsFromMapController", function(
   $scope,
   passLocation,
   $sce,
-  sendEmail
+  $http,
+  $location
 ) {
   $scope.trustUrl = function(path) {
     return $sce.trustAsResourceUrl(path);
@@ -285,7 +290,23 @@ app.controller("AddContactsFromMapController", function(
 
   $scope.panoPath = panoURL;
 
-  $scope.update = function(email) {
-    sendEmail.post(email);
+  $scope.update = function(emailAddress) {
+    $http
+      .post(
+        apiBase + "sendEmail",
+        { email: emailAddress },
+        {
+          headers: { "Content-Type": "application/json" }
+        }
+      )
+      .then(
+        function() {
+          console.log("email successfully sent"); //debugging
+        },
+        function() {
+          console.log("there was an error sending the email"); //debugging
+        }
+      );
+    $location.path("/completed");
   };
 });

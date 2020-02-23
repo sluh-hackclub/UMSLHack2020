@@ -7,7 +7,7 @@ const path = require("path");
 // const serviceAccount = require(path.join(__dirname, '/firebase_private_key.json'));
 const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
-const applicationURL = "http://127.0.0.1:3005"; //TODO: set application URL for email links
+const applicationURL = "http://127.0.0.1:3005?token=101a2hb3"; //TODO: set application URL for email links
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -22,9 +22,11 @@ async function sendEmail(contactEmail) {
     from: '"EpTracker" <hackclubdemo@gmail.com>', // sender address
     to: contactEmail, // list of receivers
     subject: "Urgent Virus Update", // Subject line
-    text:
-      "You have been listed as a possible contact within the EpTracker system. Please fill out the following questionnaire about your health.", // plain text body
-    html: "<a href='" + applicationURL + "'>Hello world?</a>" // html body
+    text: "", // plain text body
+    html:
+      "You have been listed as a possible contact within the EpTracker system. Please fill out the following questionnaire about your health. <br><a href='" +
+      applicationURL +
+      "'>Fill Out Virus Questionnaire</a>" // html body
   });
 }
 
@@ -138,12 +140,12 @@ app.get("/", (req, res, next) => {
   }
 });
 
-app.get('/login', (req, res, next) => {
-  res.sendFile(path.join(__dirname, '/frontend/partials/login.html'));
+app.get("/login", (req, res, next) => {
+  res.sendFile(path.join(__dirname, "/frontend/partials/login.html"));
 });
 
-app.get('/api/v1/locations', (req, res, next) => {
-  const email = 'patient@umslhack.io';
+app.get("/api/v1/locations", (req, res, next) => {
+  const email = "patient@umslhack.io";
   const finalResponse = {};
   Patient.findOne({ email: email }).then(doc => {
     console.log(doc.locations);
