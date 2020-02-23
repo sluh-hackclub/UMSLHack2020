@@ -1,7 +1,43 @@
-<div>
-  <section class="hero has-background-info is-medium">
-    <div class="hero-body">
+    <div>
+      <section class="hero has-background-info">
+        <div class="hero-body">
+          
+          <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div>
+                        <figure class="image">
+                          <img src="whiteTransparent.png" alt="virus logo" style="width:75px; float:left"/>
+                        </figure>
+                        <h2 class="subtitle is-2 has-text-white">
+                          EpTracker | <strong class="has-text-white">Questionnaire</strong>
+                        </h2>  
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+          <br>
+          <div class="container">
+            <p class="has-text-white has-text-centered">
+            Welcome to the Coronavirus Questionnaire. Please answer these questions to help track the current spread and 
+            prevent further spread of the virus.
+            </p>
+          </div>
+        </div>
+      </section>
+    <br>
+    <section>
+      <div class="container  has-text-centered">
 
+        <div class="notification box">
+          <h6> 
+          {{accessingUser ?  accessingUser : 'Name?'}}
+          </h6>
+        </div>
+      </div>
+    </section>
+    <section class="section">
       <div class="container">
           <div class="columns is-centered">
               <div class="column is-half">
